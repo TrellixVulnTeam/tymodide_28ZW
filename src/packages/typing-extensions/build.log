@@ -1,0 +1,21 @@
+--2022-05-25 15:13:35--  https://files.pythonhosted.org/packages/05/e4/baf0031e39cf545f0c9edd5b1a2ea12609b7fcba2d58e118b11753d68cf0/typing_extensions-4.0.1-py3-none-any.whl
+Resolving files.pythonhosted.org (files.pythonhosted.org)... 151.101.189.63, 2a04:4e42:a::319
+Connecting to files.pythonhosted.org (files.pythonhosted.org)|151.101.189.63|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 22816 (22K) [application/octet-stream]
+Saving to: ‘typing_extensions-4.0.1-py3-none-any.whl’
+
+     0K .......... .......... ..                              100%  719K=0.03s
+
+2022-05-25 15:13:35 (719 KB/s) - ‘typing_extensions-4.0.1-py3-none-any.whl’ saved [22816/22816]
+
+Unpacking to: ./typing_extensions-4.0.1...OK
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 87149
+compressed package into 52101
+compressed in 39 ms
+(node:41473) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2022-05-25 15:13:32] Building package typing-extensions...
+[2022-05-25 15:13:37] Succeeded building package typing-extensions in 5.0 seconds.

@@ -1,0 +1,140 @@
+/Users/thomasj/tymodide/pyodide/emsdk/emsdk/node/14.18.2_64bit/bin/node: /Users/thomasj/tymodide/pyodide/emsdk/emsdk/node/14.18.2_64bit/bin/node: cannot execute binary file
+running install
+running bdist_egg
+running egg_info
+writing src/pluggy.egg-info/PKG-INFO
+writing dependency_links to src/pluggy.egg-info/dependency_links.txt
+writing requirements to src/pluggy.egg-info/requires.txt
+writing top-level names to src/pluggy.egg-info/top_level.txt
+reading manifest file 'src/pluggy.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 4.0.0-unsupported is an invalid version and will not be supported in a future release
+  warnings.warn(
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/setuptools/installer.py:27: SetuptoolsDeprecationWarning: setuptools.installer is deprecated. Requirements should be satisfied by a PEP 517 installer.
+  warnings.warn(
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 4.0.0-unsupported is an invalid version and will not be supported in a future release
+  warnings.warn(
+warning: no files found matching 'CHANGELOG'
+warning: no previously-included files matching '*.pyc' found under directory '*'
+warning: no previously-included files matching '*.pyo' found under directory '*'
+adding license file 'LICENSE'
+writing manifest file 'src/pluggy.egg-info/SOURCES.txt'
+installing library code to build/bdist.macosx-10.9-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/pluggy
+copying src/pluggy/_tracing.py -> build/lib/pluggy
+copying src/pluggy/_version.py -> build/lib/pluggy
+copying src/pluggy/_callers.py -> build/lib/pluggy
+copying src/pluggy/__init__.py -> build/lib/pluggy
+copying src/pluggy/_hooks.py -> build/lib/pluggy
+copying src/pluggy/_result.py -> build/lib/pluggy
+copying src/pluggy/_manager.py -> build/lib/pluggy
+creating build/bdist.macosx-10.9-x86_64
+creating build/bdist.macosx-10.9-x86_64/egg
+creating build/bdist.macosx-10.9-x86_64/egg/pluggy
+copying build/lib/pluggy/_tracing.py -> build/bdist.macosx-10.9-x86_64/egg/pluggy
+copying build/lib/pluggy/_version.py -> build/bdist.macosx-10.9-x86_64/egg/pluggy
+copying build/lib/pluggy/_callers.py -> build/bdist.macosx-10.9-x86_64/egg/pluggy
+copying build/lib/pluggy/__init__.py -> build/bdist.macosx-10.9-x86_64/egg/pluggy
+copying build/lib/pluggy/_hooks.py -> build/bdist.macosx-10.9-x86_64/egg/pluggy
+copying build/lib/pluggy/_result.py -> build/bdist.macosx-10.9-x86_64/egg/pluggy
+copying build/lib/pluggy/_manager.py -> build/bdist.macosx-10.9-x86_64/egg/pluggy
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/pluggy/_tracing.py to _tracing.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/pluggy/_version.py to _version.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/pluggy/_callers.py to _callers.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/pluggy/__init__.py to __init__.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/pluggy/_hooks.py to _hooks.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/pluggy/_result.py to _result.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/pluggy/_manager.py to _manager.cpython-38.pyc
+creating build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying src/pluggy.egg-info/PKG-INFO -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying src/pluggy.egg-info/SOURCES.txt -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying src/pluggy.egg-info/dependency_links.txt -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying src/pluggy.egg-info/requires.txt -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying src/pluggy.egg-info/top_level.txt -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+pluggy.__pycache__._manager.cpython-38: module MAY be using inspect.trace
+creating dist
+creating 'dist/pluggy-1.0.0-py3.8.egg' and adding 'build/bdist.macosx-10.9-x86_64/egg' to it
+removing 'build/bdist.macosx-10.9-x86_64/egg' (and everything under it)
+Processing pluggy-1.0.0-py3.8.egg
+creating /Users/thomasj/tymodide/pyodide/packages/.artifacts/lib/python/pluggy-1.0.0-py3.8.egg
+Extracting pluggy-1.0.0-py3.8.egg to /Users/thomasj/tymodide/pyodide/packages/.artifacts/lib/python
+Adding pluggy 1.0.0 to easy-install.pth file
+
+Installed /Users/thomasj/tymodide/pyodide/packages/.artifacts/lib/python/pluggy-1.0.0-py3.8.egg
+Processing dependencies for pluggy==1.0.0
+Finished processing dependencies for pluggy==1.0.0
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.8
+creating install/lib/python3.8/site-packages
+creating install/lib/python3.8/site-packages/pluggy
+copying build/lib/pluggy/_tracing.py -> install/lib/python3.8/site-packages/pluggy
+copying build/lib/pluggy/_version.py -> install/lib/python3.8/site-packages/pluggy
+copying build/lib/pluggy/_callers.py -> install/lib/python3.8/site-packages/pluggy
+copying build/lib/pluggy/__init__.py -> install/lib/python3.8/site-packages/pluggy
+copying build/lib/pluggy/_hooks.py -> install/lib/python3.8/site-packages/pluggy
+copying build/lib/pluggy/_result.py -> install/lib/python3.8/site-packages/pluggy
+copying build/lib/pluggy/_manager.py -> install/lib/python3.8/site-packages/pluggy
+byte-compiling install/lib/python3.8/site-packages/pluggy/_tracing.py to _tracing.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/pluggy/_version.py to _version.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/pluggy/_callers.py to _callers.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/pluggy/__init__.py to __init__.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/pluggy/_hooks.py to _hooks.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/pluggy/_result.py to _result.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/pluggy/_manager.py to _manager.cpython-38.pyc
+running install_egg_info
+running egg_info
+writing src/pluggy.egg-info/PKG-INFO
+writing dependency_links to src/pluggy.egg-info/dependency_links.txt
+writing requirements to src/pluggy.egg-info/requires.txt
+writing top-level names to src/pluggy.egg-info/top_level.txt
+reading manifest file 'src/pluggy.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 4.0.0-unsupported is an invalid version and will not be supported in a future release
+  warnings.warn(
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/setuptools/installer.py:27: SetuptoolsDeprecationWarning: setuptools.installer is deprecated. Requirements should be satisfied by a PEP 517 installer.
+  warnings.warn(
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+warning: no files found matching 'CHANGELOG'
+warning: no previously-included files matching '*.pyc' found under directory '*'
+warning: no previously-included files matching '*.pyo' found under directory '*'
+adding license file 'LICENSE'
+writing manifest file 'src/pluggy.egg-info/SOURCES.txt'
+Copying src/pluggy.egg-info to install/lib/python3.8/site-packages/pluggy-1.0.0-py3.8.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+file_packager: error: '/Users/thomasj/tymodide/pyodide/emsdk/emsdk/node/14.18.2_64bit/bin/node /Users/thomasj/tymodide/pyodide/emsdk/emsdk/upstream/emscripten/tools/lz4-compress.js /Users/thomasj/tymodide/pyodide/emsdk/emsdk/upstream/emscripten/third_party/mini-lz4.js pluggy.data.orig pluggy.data' failed: [Errno 8] Exec format error: '/Users/thomasj/tymodide/pyodide/emsdk/emsdk/node/14.18.2_64bit/bin/node'
+Traceback (most recent call last):
+  File "/Users/thomasj/opt/anaconda3/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/thomasj/opt/anaconda3/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/__main__.py", line 62, in <module>
+    main()
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/__main__.py", line 56, in main
+    args.func(args)
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/buildpkg.py", line 862, in main
+    build_package(
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/buildpkg.py", line 700, in build_package
+    package_files(
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/buildpkg.py", line 530, in package_files
+    common.invoke_file_packager(
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/common.py", line 86, in invoke_file_packager
+    subprocess.run(
+  File "/Users/thomasj/opt/anaconda3/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/Users/thomasj/tymodide/pyodide/emsdk/emsdk/upstream/emscripten/tools/file_packager', 'pluggy.data', '--js-output=pluggy.js', '--preload', '/Users/thomasj/tymodide/pyodide/packages/pluggy/build/pluggy-1.0.0/install@/', '--lz4', '--export-name=globalThis.__pyodide_module', '--exclude', '*__pycache__*', '--use-preload-plugins']' returned non-zero exit status 1.
+[2022-08-04 09:42:19] Building package pluggy...
+[2022-08-04 09:42:33] Failed building package pluggy in 13.3 seconds.

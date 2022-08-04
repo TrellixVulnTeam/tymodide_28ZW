@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/local/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/src/pyodide-build/pyodide_build/__main__.py", line 62, in <module>
+    main()
+  File "/src/pyodide-build/pyodide_build/__main__.py", line 56, in main
+    args.func(args)
+  File "/src/pyodide-build/pyodide_build/buildpkg.py", line 862, in main
+    build_package(
+  File "/src/pyodide-build/pyodide_build/buildpkg.py", line 678, in build_package
+    prepare_source(pkg_root, build_dir, srcpath, source_metadata)
+  File "/src/pyodide-build/pyodide_build/buildpkg.py", line 254, in prepare_source
+    download_and_extract(buildpath, srcpath, src_metadata)
+  File "/src/pyodide-build/pyodide_build/buildpkg.py", line 193, in download_and_extract
+    response = request.urlopen(src_metadata["url"])
+  File "/usr/local/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/usr/local/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/usr/local/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/usr/local/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/usr/local/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/usr/local/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 404: Not Found
+[2022-05-25 15:14:18] Building package zlib...
+[2022-05-25 15:14:22] Failed building package zlib in 4.1 seconds.

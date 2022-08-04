@@ -79,7 +79,7 @@ emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 2.0.16 (5
 Copyright (C) 2014 the Emscripten authors (see AUTHORS.txt)
 This is free and open source software under the MIT license.
 There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-  
+
 configure:3911: $? = 0
 configure:3900: /src/emsdk/emsdk/upstream/emscripten/emcc -v >&5
 emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 2.0.16
@@ -103,7 +103,7 @@ configure:4010: result: a.out
 configure:4016: checking for suffix of executables
 configure:4023: /src/emsdk/emsdk/upstream/emscripten/emcc -o conftest -O2 -g0 -fPIC  -I/src/cpython/build/sqlite-autoconf-3270200 -I/src/cpython/build/bzip2-1.0.2 -I/src/cpython/build/zlib-1.2.12  conftest.c  >&5
 configure:4027: $? = 0
-configure:4049: result: 
+configure:4049: result:
 configure:4071: checking whether we are cross compiling
 configure:4109: result: yes
 configure:4114: checking for suffix of object files
@@ -190,11 +190,11 @@ configure: failed program was:
 | #define _XOPEN_SOURCE_EXTENDED 1
 | #define _POSIX_C_SOURCE 200809L
 | /* end confdefs.h.  */
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -345,7 +345,7 @@ configure:5651: result: yes
 configure:5666: checking for the Android API level
 configure:5701: result: not Android
 configure:5715: checking for --with-suffix
-configure:5728: result: 
+configure:5728: result:
 configure:5734: checking for case-insensitive build directory
 configure:5742: result: yes
 configure:5760: checking LIBRARY
@@ -353,7 +353,7 @@ configure:5766: result: libpython$(VERSION)$(ABIFLAGS).a
 configure:5806: checking LINKCC
 configure:5818: result: $(PURIFY) $(MAINCC)
 configure:5827: checking EXPORTSYMS
-configure:5838: result: 
+configure:5838: result:
 configure:5847: checking for GNU ld
 configure:5859: result: no
 configure:5862: checking for --enable-shared
@@ -5313,15 +5313,15 @@ configure: failed program was:
 | #define MAJOR_IN_SYSMACROS 1
 | #define HAVE_NET_IF_H 1
 | /* end confdefs.h.  */
-| 
+|
 | #ifdef HAVE_ASM_TYPES_H
 | #include <asm/types.h>
 | #endif
 | #ifdef HAVE_SYS_SOCKET_H
 | #include <sys/socket.h>
 | #endif
-| 
-| 
+|
+|
 | #include <linux/netlink.h>
 configure:8289: result: no
 configure:8311: checking for linux/qrtr.h
@@ -5406,15 +5406,15 @@ configure: failed program was:
 | #define MAJOR_IN_SYSMACROS 1
 | #define HAVE_NET_IF_H 1
 | /* end confdefs.h.  */
-| 
+|
 | #ifdef HAVE_ASM_TYPES_H
 | #include <asm/types.h>
 | #endif
 | #ifdef HAVE_SYS_SOCKET_H
 | #include <sys/socket.h>
 | #endif
-| 
-| 
+|
+|
 | #include <linux/qrtr.h>
 configure:8311: result: no
 configure:8332: checking for linux/vm_sockets.h
@@ -5502,12 +5502,12 @@ configure: failed program was:
 | #define HAVE_NET_IF_H 1
 | #define HAVE_LINUX_VM_SOCKETS_H 1
 | /* end confdefs.h.  */
-| 
+|
 | #ifdef HAVE_SYS_SOCKET_H
 | #include <sys/socket.h>
 | #endif
-| 
-| 
+|
+|
 | #include <linux/can.h>
 configure:8352: result: no
 configure:8352: checking for linux/can/bcm.h
@@ -5593,12 +5593,12 @@ configure: failed program was:
 | #define HAVE_NET_IF_H 1
 | #define HAVE_LINUX_VM_SOCKETS_H 1
 | /* end confdefs.h.  */
-| 
+|
 | #ifdef HAVE_SYS_SOCKET_H
 | #include <sys/socket.h>
 | #endif
-| 
-| 
+|
+|
 | #include <linux/can/bcm.h>
 configure:8352: result: no
 configure:8352: checking for linux/can/j1939.h
@@ -5684,12 +5684,12 @@ configure: failed program was:
 | #define HAVE_NET_IF_H 1
 | #define HAVE_LINUX_VM_SOCKETS_H 1
 | /* end confdefs.h.  */
-| 
+|
 | #ifdef HAVE_SYS_SOCKET_H
 | #include <sys/socket.h>
 | #endif
-| 
-| 
+|
+|
 | #include <linux/can/j1939.h>
 configure:8352: result: no
 configure:8352: checking for linux/can/raw.h
@@ -5775,12 +5775,12 @@ configure: failed program was:
 | #define HAVE_NET_IF_H 1
 | #define HAVE_LINUX_VM_SOCKETS_H 1
 | /* end confdefs.h.  */
-| 
+|
 | #ifdef HAVE_SYS_SOCKET_H
 | #include <sys/socket.h>
 | #endif
-| 
-| 
+|
+|
 | #include <linux/can/raw.h>
 configure:8352: result: no
 configure:8370: checking for clock_t in time.h
@@ -6737,7 +6737,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (int))) <= 0)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -6872,7 +6872,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (int))) <= 1)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -7007,7 +7007,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (int))) <= 3)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -7153,7 +7153,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (long))) <= 0)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -7289,7 +7289,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (long))) <= 1)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -7425,7 +7425,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (long))) <= 3)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -7572,7 +7572,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (long long))) <= 0)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -7709,7 +7709,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (long long))) <= 1)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -7846,7 +7846,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (long long))) <= 3)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -7983,7 +7983,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (long long))) <= 7)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -8133,7 +8133,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (void *))) <= 0)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -8271,7 +8271,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (void *))) <= 1)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -8409,7 +8409,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (void *))) <= 3)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -8558,7 +8558,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (short))) <= 0)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -8697,7 +8697,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (short))) <= 1)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -8845,7 +8845,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (float))) <= 0)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -8985,7 +8985,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (float))) <= 1)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -9125,7 +9125,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (float))) <= 3)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -9276,7 +9276,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (double))) <= 0)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -9417,7 +9417,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (double))) <= 1)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -9558,7 +9558,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (double))) <= 3)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -9699,7 +9699,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (double))) <= 7)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -9853,7 +9853,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (fpos_t))) <= 0)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -9995,7 +9995,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (fpos_t))) <= 1)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -10137,7 +10137,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (fpos_t))) <= 3)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -10279,7 +10279,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (fpos_t))) <= 7)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -10421,7 +10421,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (fpos_t))) <= 15)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -10578,7 +10578,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (size_t))) <= 0)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -10721,7 +10721,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (size_t))) <= 1)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -10864,7 +10864,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (size_t))) <= 3)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -11018,7 +11018,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (pid_t))) <= 0)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -11162,7 +11162,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (pid_t))) <= 1)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -11306,7 +11306,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (pid_t))) <= 3)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -11461,7 +11461,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (uintptr_t))) <= 0)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -11606,7 +11606,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (uintptr_t))) <= 1)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -11751,7 +11751,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (uintptr_t))) <= 3)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -11910,7 +11910,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (long double))) <= 0)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -12057,7 +12057,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (long double))) <= 1)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -12204,7 +12204,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (long double))) <= 3)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -12351,7 +12351,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (long double))) <= 7)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -12498,7 +12498,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (long double))) <= 15)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -12660,7 +12660,7 @@ configure: failed program was:
 | static int test_array [1 - 2 * !(((long int) (sizeof (_Bool))) <= 0)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -12776,19 +12776,19 @@ configure: failed program was:
 | #define SIZEOF_LONG_DOUBLE 16
 | #define SIZEOF__BOOL 1
 | /* end confdefs.h.  */
-| 
+|
 | #ifdef HAVE_SYS_TYPES_H
 | #include <sys/types.h>
 | #endif
-| 
-| 
+|
+|
 | int
 | main ()
 | {
 | static int test_array [1 - 2 * !(((long int) (sizeof (off_t))) <= 0)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -12898,19 +12898,19 @@ configure: failed program was:
 | #define SIZEOF_LONG_DOUBLE 16
 | #define SIZEOF__BOOL 1
 | /* end confdefs.h.  */
-| 
+|
 | #ifdef HAVE_SYS_TYPES_H
 | #include <sys/types.h>
 | #endif
-| 
-| 
+|
+|
 | int
 | main ()
 | {
 | static int test_array [1 - 2 * !(((long int) (sizeof (off_t))) <= 1)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -13020,19 +13020,19 @@ configure: failed program was:
 | #define SIZEOF_LONG_DOUBLE 16
 | #define SIZEOF__BOOL 1
 | /* end confdefs.h.  */
-| 
+|
 | #ifdef HAVE_SYS_TYPES_H
 | #include <sys/types.h>
 | #endif
-| 
-| 
+|
+|
 | int
 | main ()
 | {
 | static int test_array [1 - 2 * !(((long int) (sizeof (off_t))) <= 3)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -13142,19 +13142,19 @@ configure: failed program was:
 | #define SIZEOF_LONG_DOUBLE 16
 | #define SIZEOF__BOOL 1
 | /* end confdefs.h.  */
-| 
+|
 | #ifdef HAVE_SYS_TYPES_H
 | #include <sys/types.h>
 | #endif
-| 
-| 
+|
+|
 | int
 | main ()
 | {
 | static int test_array [1 - 2 * !(((long int) (sizeof (off_t))) <= 7)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -13280,22 +13280,22 @@ configure: failed program was:
 | #define SIZEOF_OFF_T 8
 | #define HAVE_LARGEFILE_SUPPORT 1
 | /* end confdefs.h.  */
-| 
+|
 | #ifdef HAVE_SYS_TYPES_H
 | #include <sys/types.h>
 | #endif
 | #ifdef HAVE_TIME_H
 | #include <time.h>
 | #endif
-| 
-| 
+|
+|
 | int
 | main ()
 | {
 | static int test_array [1 - 2 * !(((long int) (sizeof (time_t))) <= 0)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -13407,22 +13407,22 @@ configure: failed program was:
 | #define SIZEOF_OFF_T 8
 | #define HAVE_LARGEFILE_SUPPORT 1
 | /* end confdefs.h.  */
-| 
+|
 | #ifdef HAVE_SYS_TYPES_H
 | #include <sys/types.h>
 | #endif
 | #ifdef HAVE_TIME_H
 | #include <time.h>
 | #endif
-| 
-| 
+|
+|
 | int
 | main ()
 | {
 | static int test_array [1 - 2 * !(((long int) (sizeof (time_t))) <= 1)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -13534,22 +13534,22 @@ configure: failed program was:
 | #define SIZEOF_OFF_T 8
 | #define HAVE_LARGEFILE_SUPPORT 1
 | /* end confdefs.h.  */
-| 
+|
 | #ifdef HAVE_SYS_TYPES_H
 | #include <sys/types.h>
 | #endif
 | #ifdef HAVE_TIME_H
 | #include <time.h>
 | #endif
-| 
-| 
+|
+|
 | int
 | main ()
 | {
 | static int test_array [1 - 2 * !(((long int) (sizeof (time_t))) <= 3)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -13681,19 +13681,19 @@ configure: failed program was:
 | #define HAVE_LARGEFILE_SUPPORT 1
 | #define SIZEOF_TIME_T 4
 | /* end confdefs.h.  */
-| 
+|
 | #ifdef HAVE_PTHREAD_H
 | #include <pthread.h>
 | #endif
-| 
-| 
+|
+|
 | int
 | main ()
 | {
 | static int test_array [1 - 2 * !(((long int) (sizeof (pthread_t))) <= 0)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -13806,19 +13806,19 @@ configure: failed program was:
 | #define HAVE_LARGEFILE_SUPPORT 1
 | #define SIZEOF_TIME_T 4
 | /* end confdefs.h.  */
-| 
+|
 | #ifdef HAVE_PTHREAD_H
 | #include <pthread.h>
 | #endif
-| 
-| 
+|
+|
 | int
 | main ()
 | {
 | static int test_array [1 - 2 * !(((long int) (sizeof (pthread_t))) <= 1)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -13931,19 +13931,19 @@ configure: failed program was:
 | #define HAVE_LARGEFILE_SUPPORT 1
 | #define SIZEOF_TIME_T 4
 | /* end confdefs.h.  */
-| 
+|
 | #ifdef HAVE_PTHREAD_H
 | #include <pthread.h>
 | #endif
-| 
-| 
+|
+|
 | int
 | main ()
 | {
 | static int test_array [1 - 2 * !(((long int) (sizeof (pthread_t))) <= 3)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -14068,14 +14068,14 @@ configure: failed program was:
 | #define SIZEOF_PTHREAD_T 4
 | /* end confdefs.h.  */
 | #include <pthread.h>
-| 
+|
 | int
 | main ()
 | {
 | static int test_array [1 - 2 * !(((long int) (sizeof (pthread_key_t))) <= 0)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -14190,14 +14190,14 @@ configure: failed program was:
 | #define SIZEOF_PTHREAD_T 4
 | /* end confdefs.h.  */
 | #include <pthread.h>
-| 
+|
 | int
 | main ()
 | {
 | static int test_array [1 - 2 * !(((long int) (sizeof (pthread_key_t))) <= 1)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -14312,14 +14312,14 @@ configure: failed program was:
 | #define SIZEOF_PTHREAD_T 4
 | /* end confdefs.h.  */
 | #include <pthread.h>
-| 
+|
 | int
 | main ()
 | {
 | static int test_array [1 - 2 * !(((long int) (sizeof (pthread_key_t))) <= 3)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -14347,11 +14347,11 @@ configure:9460: result: .so
 configure:9467: checking LDSHARED
 configure:9598: result: /src/emsdk/emsdk/upstream/emscripten/emcc
 configure:9604: checking CCSHARED
-configure:9636: result: 
+configure:9636: result:
 configure:9640: checking LINKFORSHARED
-configure:9698: result: 
+configure:9698: result:
 configure:9703: checking CFLAGSFORSHARED
-configure:9716: result: 
+configure:9716: result:
 configure:9728: checking SHLIBS
 configure:9734: result: $(LIBS)
 configure:9739: checking for sendfile in -lsendfile
@@ -14464,7 +14464,7 @@ configure: failed program was:
 | #define SIZEOF_PTHREAD_KEY_T 4
 | #define PTHREAD_KEY_T_IS_COMPATIBLE_WITH_INT 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -14595,7 +14595,7 @@ configure: failed program was:
 | #define PTHREAD_KEY_T_IS_COMPATIBLE_WITH_INT 1
 | #define HAVE_LIBDL 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -15009,11 +15009,11 @@ configure: failed program was:
 | int
 | main ()
 | {
-| 
+|
 | #ifndef uuid_generate_time_safe
 | void *x = uuid_generate_time_safe
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -15137,11 +15137,11 @@ configure: failed program was:
 | int
 | main ()
 | {
-| 
+|
 | #ifndef uuid_create
 | void *x = uuid_create
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -15265,11 +15265,11 @@ configure: failed program was:
 | int
 | main ()
 | {
-| 
+|
 | #ifndef uuid_enc_be
 | void *x = uuid_enc_be
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -15393,7 +15393,7 @@ configure: failed program was:
 | #define HAVE_LIBDL 1
 | #define HAVE_UUID_UUID_H 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -15534,7 +15534,7 @@ configure: failed program was:
 | #define HAVE_UUID_UUID_H 1
 | #define HAVE_ALIGNED_REQUIRED 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -15577,7 +15577,7 @@ configure:10651: result: default
 configure:10653: checking for --with-tcltk-libs
 configure:10663: result: default
 configure:10679: checking for --with-dbmliborder
-configure:10698: result: 
+configure:10698: result:
 configure:10743: checking for _POSIX_THREADS in unistd.h
 configure:10762: result: yes
 configure:10772: checking for pthread_create in -lpthread
@@ -15699,15 +15699,15 @@ configure: failed program was:
 | #define WITH_DECIMAL_CONTEXTVAR 1
 | #define _REENTRANT 1
 | /* end confdefs.h.  */
-| 
+|
 | #include <stdio.h>
 | #include <pthread.h>
-| 
+|
 | void * start_routine (void *arg) { exit (0); }
 | int
 | main ()
 | {
-| 
+|
 | pthread_create (NULL, NULL, start_routine, NULL)
 |   ;
 |   return 0;
@@ -15834,7 +15834,7 @@ configure: failed program was:
 | #define WITH_DECIMAL_CONTEXTVAR 1
 | #define _REENTRANT 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -15979,20 +15979,20 @@ configure: failed program was:
 | /* Define pthread_getcpuclockid to an innocuous variant, in case <limits.h> declares pthread_getcpuclockid.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define pthread_getcpuclockid innocuous_pthread_getcpuclockid
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char pthread_getcpuclockid (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef pthread_getcpuclockid
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -16006,7 +16006,7 @@ configure: failed program was:
 | #if defined __stub_pthread_getcpuclockid || defined __stub___pthread_getcpuclockid
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -16265,7 +16265,7 @@ configure: failed program was:
 | #define _REENTRANT 1
 | #define HAVE_PTHREAD_SIGMASK 1
 | /* end confdefs.h.  */
-| 
+|
 | #include <linux/can/raw.h>
 | int
 | main ()
@@ -16470,20 +16470,20 @@ configure: failed program was:
 | /* Define copy_file_range to an innocuous variant, in case <limits.h> declares copy_file_range.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define copy_file_range innocuous_copy_file_range
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char copy_file_range (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef copy_file_range
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -16497,7 +16497,7 @@ configure: failed program was:
 | #if defined __stub_copy_file_range || defined __stub___copy_file_range
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -16665,20 +16665,20 @@ configure: failed program was:
 | /* Define explicit_bzero to an innocuous variant, in case <limits.h> declares explicit_bzero.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define explicit_bzero innocuous_explicit_bzero
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char explicit_bzero (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef explicit_bzero
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -16692,7 +16692,7 @@ configure: failed program was:
 | #if defined __stub_explicit_bzero || defined __stub___explicit_bzero
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -16839,20 +16839,20 @@ configure: failed program was:
 | /* Define explicit_memset to an innocuous variant, in case <limits.h> declares explicit_memset.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define explicit_memset innocuous_explicit_memset
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char explicit_memset (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef explicit_memset
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -16866,7 +16866,7 @@ configure: failed program was:
 | #if defined __stub_explicit_memset || defined __stub___explicit_memset
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -17013,20 +17013,20 @@ configure: failed program was:
 | /* Define faccessat to an innocuous variant, in case <limits.h> declares faccessat.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define faccessat innocuous_faccessat
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char faccessat (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef faccessat
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -17040,7 +17040,7 @@ configure: failed program was:
 | #if defined __stub_faccessat || defined __stub___faccessat
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -17219,20 +17219,20 @@ configure: failed program was:
 | /* Define fdwalk to an innocuous variant, in case <limits.h> declares fdwalk.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define fdwalk innocuous_fdwalk
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char fdwalk (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef fdwalk
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -17246,7 +17246,7 @@ configure: failed program was:
 | #if defined __stub_fdwalk || defined __stub___fdwalk
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -17463,20 +17463,20 @@ configure: failed program was:
 | /* Define futimes to an innocuous variant, in case <limits.h> declares futimes.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define futimes innocuous_futimes
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char futimes (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef futimes
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -17490,7 +17490,7 @@ configure: failed program was:
 | #if defined __stub_futimes || defined __stub___futimes
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -17670,20 +17670,20 @@ configure: failed program was:
 | /* Define getgrouplist to an innocuous variant, in case <limits.h> declares getgrouplist.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define getgrouplist innocuous_getgrouplist
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char getgrouplist (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef getgrouplist
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -17697,7 +17697,7 @@ configure: failed program was:
 | #if defined __stub_getgrouplist || defined __stub___getgrouplist
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -17939,20 +17939,20 @@ configure: failed program was:
 | /* Define getspnam to an innocuous variant, in case <limits.h> declares getspnam.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define getspnam innocuous_getspnam
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char getspnam (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef getspnam
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -17966,7 +17966,7 @@ configure: failed program was:
 | #if defined __stub_getspnam || defined __stub___getspnam
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -18142,20 +18142,20 @@ configure: failed program was:
 | /* Define getspent to an innocuous variant, in case <limits.h> declares getspent.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define getspent innocuous_getspent
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char getspent (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef getspent
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -18169,7 +18169,7 @@ configure: failed program was:
 | #if defined __stub_getspent || defined __stub___getspent
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -18353,20 +18353,20 @@ configure: failed program was:
 | /* Define getwd to an innocuous variant, in case <limits.h> declares getwd.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define getwd innocuous_getwd
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char getwd (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef getwd
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -18380,7 +18380,7 @@ configure: failed program was:
 | #if defined __stub_getwd || defined __stub___getwd
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -18559,20 +18559,20 @@ configure: failed program was:
 | /* Define if_nameindex to an innocuous variant, in case <limits.h> declares if_nameindex.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define if_nameindex innocuous_if_nameindex
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char if_nameindex (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef if_nameindex
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -18586,7 +18586,7 @@ configure: failed program was:
 | #if defined __stub_if_nameindex || defined __stub___if_nameindex
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -18763,20 +18763,20 @@ configure: failed program was:
 | /* Define initgroups to an innocuous variant, in case <limits.h> declares initgroups.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define initgroups innocuous_initgroups
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char initgroups (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef initgroups
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -18790,7 +18790,7 @@ configure: failed program was:
 | #if defined __stub_initgroups || defined __stub___initgroups
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -19009,20 +19009,20 @@ configure: failed program was:
 | /* Define lutimes to an innocuous variant, in case <limits.h> declares lutimes.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define lutimes innocuous_lutimes
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char lutimes (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef lutimes
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -19036,7 +19036,7 @@ configure: failed program was:
 | #if defined __stub_lutimes || defined __stub___lutimes
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -19341,20 +19341,20 @@ configure: failed program was:
 | /* Define plock to an innocuous variant, in case <limits.h> declares plock.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define plock innocuous_plock
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char plock (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef plock
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -19368,7 +19368,7 @@ configure: failed program was:
 | #if defined __stub_plock || defined __stub___plock
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -19620,20 +19620,20 @@ configure: failed program was:
 | /* Define preadv2 to an innocuous variant, in case <limits.h> declares preadv2.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define preadv2 innocuous_preadv2
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char preadv2 (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef preadv2
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -19647,7 +19647,7 @@ configure: failed program was:
 | #if defined __stub_preadv2 || defined __stub___preadv2
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -19861,20 +19861,20 @@ configure: failed program was:
 | /* Define pthread_init to an innocuous variant, in case <limits.h> declares pthread_init.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define pthread_init innocuous_pthread_init
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char pthread_init (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef pthread_init
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -19888,7 +19888,7 @@ configure: failed program was:
 | #if defined __stub_pthread_init || defined __stub___pthread_init
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -20095,20 +20095,20 @@ configure: failed program was:
 | /* Define pthread_kill to an innocuous variant, in case <limits.h> declares pthread_kill.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define pthread_kill innocuous_pthread_kill
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char pthread_kill (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef pthread_kill
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -20122,7 +20122,7 @@ configure: failed program was:
 | #if defined __stub_pthread_kill || defined __stub___pthread_kill
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -20345,20 +20345,20 @@ configure: failed program was:
 | /* Define pwritev2 to an innocuous variant, in case <limits.h> declares pwritev2.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define pwritev2 innocuous_pwritev2
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char pwritev2 (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef pwritev2
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -20372,7 +20372,7 @@ configure: failed program was:
 | #if defined __stub_pwritev2 || defined __stub___pwritev2
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -20621,20 +20621,20 @@ configure: failed program was:
 | /* Define sem_open to an innocuous variant, in case <limits.h> declares sem_open.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define sem_open innocuous_sem_open
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char sem_open (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef sem_open
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -20648,7 +20648,7 @@ configure: failed program was:
 | #if defined __stub_sem_open || defined __stub___sem_open
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -20862,20 +20862,20 @@ configure: failed program was:
 | /* Define sem_timedwait to an innocuous variant, in case <limits.h> declares sem_timedwait.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define sem_timedwait innocuous_sem_timedwait
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char sem_timedwait (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef sem_timedwait
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -20889,7 +20889,7 @@ configure: failed program was:
 | #if defined __stub_sem_timedwait || defined __stub___sem_timedwait
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -21103,20 +21103,20 @@ configure: failed program was:
 | /* Define sem_getvalue to an innocuous variant, in case <limits.h> declares sem_getvalue.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define sem_getvalue innocuous_sem_getvalue
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char sem_getvalue (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef sem_getvalue
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -21130,7 +21130,7 @@ configure: failed program was:
 | #if defined __stub_sem_getvalue || defined __stub___sem_getvalue
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -21344,20 +21344,20 @@ configure: failed program was:
 | /* Define sem_unlink to an innocuous variant, in case <limits.h> declares sem_unlink.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define sem_unlink innocuous_sem_unlink
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char sem_unlink (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef sem_unlink
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -21371,7 +21371,7 @@ configure: failed program was:
 | #if defined __stub_sem_unlink || defined __stub___sem_unlink
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -21585,20 +21585,20 @@ configure: failed program was:
 | /* Define sendfile to an innocuous variant, in case <limits.h> declares sendfile.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define sendfile innocuous_sendfile
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char sendfile (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef sendfile
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -21612,7 +21612,7 @@ configure: failed program was:
 | #if defined __stub_sendfile || defined __stub___sendfile
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -21850,20 +21850,20 @@ configure: failed program was:
 | /* Define sethostname to an innocuous variant, in case <limits.h> declares sethostname.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define sethostname innocuous_sethostname
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char sethostname (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef sethostname
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -21877,7 +21877,7 @@ configure: failed program was:
 | #if defined __stub_sethostname || defined __stub___sethostname
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -22176,20 +22176,20 @@ configure: failed program was:
 | /* Define sched_get_priority_max to an innocuous variant, in case <limits.h> declares sched_get_priority_max.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define sched_get_priority_max innocuous_sched_get_priority_max
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char sched_get_priority_max (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef sched_get_priority_max
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -22203,7 +22203,7 @@ configure: failed program was:
 | #if defined __stub_sched_get_priority_max || defined __stub___sched_get_priority_max
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -22431,20 +22431,20 @@ configure: failed program was:
 | /* Define sched_setaffinity to an innocuous variant, in case <limits.h> declares sched_setaffinity.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define sched_setaffinity innocuous_sched_setaffinity
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char sched_setaffinity (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef sched_setaffinity
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -22458,7 +22458,7 @@ configure: failed program was:
 | #if defined __stub_sched_setaffinity || defined __stub___sched_setaffinity
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -22686,20 +22686,20 @@ configure: failed program was:
 | /* Define sched_setscheduler to an innocuous variant, in case <limits.h> declares sched_setscheduler.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define sched_setscheduler innocuous_sched_setscheduler
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char sched_setscheduler (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef sched_setscheduler
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -22713,7 +22713,7 @@ configure: failed program was:
 | #if defined __stub_sched_setscheduler || defined __stub___sched_setscheduler
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -22941,20 +22941,20 @@ configure: failed program was:
 | /* Define sched_setparam to an innocuous variant, in case <limits.h> declares sched_setparam.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define sched_setparam innocuous_sched_setparam
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char sched_setparam (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef sched_setparam
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -22968,7 +22968,7 @@ configure: failed program was:
 | #if defined __stub_sched_setparam || defined __stub___sched_setparam
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -23196,20 +23196,20 @@ configure: failed program was:
 | /* Define sched_rr_get_interval to an innocuous variant, in case <limits.h> declares sched_rr_get_interval.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define sched_rr_get_interval innocuous_sched_rr_get_interval
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char sched_rr_get_interval (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef sched_rr_get_interval
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -23223,7 +23223,7 @@ configure: failed program was:
 | #if defined __stub_sched_rr_get_interval || defined __stub___sched_rr_get_interval
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -23456,20 +23456,20 @@ configure: failed program was:
 | /* Define sigaltstack to an innocuous variant, in case <limits.h> declares sigaltstack.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define sigaltstack innocuous_sigaltstack
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char sigaltstack (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef sigaltstack
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -23483,7 +23483,7 @@ configure: failed program was:
 | #if defined __stub_sigaltstack || defined __stub___sigaltstack
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -23727,20 +23727,20 @@ configure: failed program was:
 | /* Define sigrelse to an innocuous variant, in case <limits.h> declares sigrelse.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define sigrelse innocuous_sigrelse
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char sigrelse (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef sigrelse
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -23754,7 +23754,7 @@ configure: failed program was:
 | #if defined __stub_sigrelse || defined __stub___sigrelse
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -23986,20 +23986,20 @@ configure: failed program was:
 | /* Define sigtimedwait to an innocuous variant, in case <limits.h> declares sigtimedwait.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define sigtimedwait innocuous_sigtimedwait
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char sigtimedwait (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef sigtimedwait
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -24013,7 +24013,7 @@ configure: failed program was:
 | #if defined __stub_sigtimedwait || defined __stub___sigtimedwait
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -24245,20 +24245,20 @@ configure: failed program was:
 | /* Define sigwait to an innocuous variant, in case <limits.h> declares sigwait.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define sigwait innocuous_sigwait
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char sigwait (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef sigwait
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -24272,7 +24272,7 @@ configure: failed program was:
 | #if defined __stub_sigwait || defined __stub___sigwait
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -24504,20 +24504,20 @@ configure: failed program was:
 | /* Define sigwaitinfo to an innocuous variant, in case <limits.h> declares sigwaitinfo.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define sigwaitinfo innocuous_sigwaitinfo
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char sigwaitinfo (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef sigwaitinfo
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -24531,7 +24531,7 @@ configure: failed program was:
 | #if defined __stub_sigwaitinfo || defined __stub___sigwaitinfo
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -24873,20 +24873,20 @@ configure: failed program was:
 | /* Define tmpnam_r to an innocuous variant, in case <limits.h> declares tmpnam_r.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define tmpnam_r innocuous_tmpnam_r
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char tmpnam_r (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef tmpnam_r
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -24900,7 +24900,7 @@ configure: failed program was:
 | #if defined __stub_tmpnam_r || defined __stub___tmpnam_r
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -25214,20 +25214,20 @@ configure: failed program was:
 | /* Define wcsftime to an innocuous variant, in case <limits.h> declares wcsftime.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define wcsftime innocuous_wcsftime
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char wcsftime (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef wcsftime
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -25241,7 +25241,7 @@ configure: failed program was:
 | #if defined __stub_wcsftime || defined __stub___wcsftime
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -25526,20 +25526,20 @@ configure: failed program was:
 | /* Define _getpty to an innocuous variant, in case <limits.h> declares _getpty.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define _getpty innocuous__getpty
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char _getpty (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef _getpty
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -25553,7 +25553,7 @@ configure: failed program was:
 | #if defined __stub__getpty || defined __stub____getpty
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -25812,20 +25812,20 @@ configure: failed program was:
 | /* Define rtpSpawn to an innocuous variant, in case <limits.h> declares rtpSpawn.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define rtpSpawn innocuous_rtpSpawn
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char rtpSpawn (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef rtpSpawn
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -25839,7 +25839,7 @@ configure: failed program was:
 | #if defined __stub_rtpSpawn || defined __stub___rtpSpawn
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -26147,10 +26147,10 @@ configure: failed program was:
 | #define HAVE_EPOLL 1
 | #define HAVE_EPOLL_CREATE1 1
 | /* end confdefs.h.  */
-| 
+|
 | #include <sys/types.h>
 | #include <sys/event.h>
-| 
+|
 | int
 | main ()
 | {
@@ -26686,14 +26686,14 @@ configure: failed program was:
 | #define HAVE_EPOLL_CREATE1 1
 | #define HAVE_PRLIMIT 1
 | /* end confdefs.h.  */
-| 
+|
 | #ifdef HAVE_SYS_MMAN_H
 | #include <sys/mman.h>
 | #endif
 | #ifdef HAVE_SYS_MEMFD_H
 | #include <sys/memfd.h>
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -26963,9 +26963,9 @@ configure: failed program was:
 | #define HAVE_EPOLL_CREATE1 1
 | #define HAVE_PRLIMIT 1
 | /* end confdefs.h.  */
-| 
+|
 | #include <stdio.h>
-| 
+|
 | int
 | main ()
 | {
@@ -27265,20 +27265,20 @@ configure: failed program was:
 | /* Define chflags to an innocuous variant, in case <limits.h> declares chflags.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define chflags innocuous_chflags
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char chflags (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef chflags
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -27292,7 +27292,7 @@ configure: failed program was:
 | #if defined __stub_chflags || defined __stub___chflags
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -27566,20 +27566,20 @@ configure: failed program was:
 | /* Define lchflags to an innocuous variant, in case <limits.h> declares lchflags.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define lchflags innocuous_lchflags
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char lchflags (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef lchflags
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -27593,7 +27593,7 @@ configure: failed program was:
 | #if defined __stub_lchflags || defined __stub___lchflags
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -27858,7 +27858,7 @@ configure: failed program was:
 | #define HAVE_FLOCK 1
 | #define HAVE_GETPAGESIZE 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -28173,20 +28173,20 @@ configure: failed program was:
 | /* Define fseek64 to an innocuous variant, in case <limits.h> declares fseek64.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define fseek64 innocuous_fseek64
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char fseek64 (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef fseek64
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -28200,7 +28200,7 @@ configure: failed program was:
 | #if defined __stub_fseek64 || defined __stub___fseek64
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -28494,20 +28494,20 @@ configure: failed program was:
 | /* Define ftell64 to an innocuous variant, in case <limits.h> declares ftell64.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define ftell64 innocuous_ftell64
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char ftell64 (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef ftell64
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -28521,7 +28521,7 @@ configure: failed program was:
 | #if defined __stub_ftell64 || defined __stub___ftell64
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -31793,7 +31793,7 @@ configure: failed program was:
 | #define HAVE_ADDRINFO 1
 | #define HAVE_SOCKADDR_STORAGE 1
 | /* end confdefs.h.  */
-| 
+|
 | #		include <sys/types.h>
 | #		include <sys/socket.h>
 | #		include <linux/if_alg.h>
@@ -32445,20 +32445,20 @@ configure: failed program was:
 | /* Define __fpu_control to an innocuous variant, in case <limits.h> declares __fpu_control.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define __fpu_control innocuous___fpu_control
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char __fpu_control (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef __fpu_control
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -32472,7 +32472,7 @@ configure: failed program was:
 | #if defined __stub___fpu_control || defined __stub_____fpu_control
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -32776,7 +32776,7 @@ configure: failed program was:
 | #define HAVE_GETHOSTBYNAME_R 1
 | #define HAVE_GETHOSTBYNAME_R_6_ARG 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -33097,13 +33097,13 @@ configure: failed program was:
 | #define HAVE_GETHOSTBYNAME_R 1
 | #define HAVE_GETHOSTBYNAME_R_6_ARG 1
 | /* end confdefs.h.  */
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |   __asm__ __volatile__ ("movq %rcx, %rax");
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -33117,14 +33117,14 @@ conftest.c:297:25: error: invalid operand in inline asm: 'fnstcw $0'
                         ^
 conftest.c:297:25: error: invalid instruction
 <inline asm>:1:2: note: instantiated into assembly here
-        fnstcw 
+        fnstcw
         ^
 conftest.c:298:25: error: invalid operand in inline asm: 'fldcw $0'
   __asm__ __volatile__ ("fldcw %0" : : "m" (cw));
                         ^
 conftest.c:298:25: error: invalid instruction
 <inline asm>:1:2: note: instantiated into assembly here
-        fldcw 
+        fldcw
         ^
 4 errors generated.
 emcc: error: '/src/emsdk/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -DEMSCRIPTEN -fignore-exceptions -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr -D__EMSCRIPTEN_major__=2 -D__EMSCRIPTEN_minor__=0 -D__EMSCRIPTEN_tiny__=16 -D_LIBCPP_ABI_VERSION=2 -Dunix -D__unix -D__unix__ -flegacy-pass-manager -Werror=implicit-function-declaration -Xclang -iwithsysroot/include/SDL --sysroot=/src/emsdk/emsdk/upstream/emscripten/cache/sysroot -Xclang -iwithsysroot/include/compat -O2 -fPIC -I/src/cpython/build/sqlite-autoconf-3270200 -I/src/cpython/build/bzip2-1.0.2 -I/src/cpython/build/zlib-1.2.12 conftest.c -c -o /tmp/emscripten_temp_76lvg54q/conftest_0.o' failed (1)
@@ -33420,15 +33420,15 @@ configure: failed program was:
 | #define HAVE_GETHOSTBYNAME_R_6_ARG 1
 | #define DOUBLE_IS_LITTLE_ENDIAN_IEEE754 1
 | /* end confdefs.h.  */
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |   unsigned short cw;
 |   __asm__ __volatile__ ("fnstcw %0" : "=m" (cw));
 |   __asm__ __volatile__ ("fldcw %0" : : "m" (cw));
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -33743,15 +33743,15 @@ configure: failed program was:
 | #define HAVE_GETHOSTBYNAME_R_6_ARG 1
 | #define DOUBLE_IS_LITTLE_ENDIAN_IEEE754 1
 | /* end confdefs.h.  */
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |   unsigned int fpcr;
 |   __asm__ __volatile__ ("fmove.l %%fpcr,%0" : "=g" (fpcr));
 |   __asm__ __volatile__ ("fmove.l %0,%%fpcr" : : "g" (fpcr));
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -34165,20 +34165,20 @@ configure: failed program was:
 | /* Define gamma to an innocuous variant, in case <limits.h> declares gamma.
 |    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
 | #define gamma innocuous_gamma
-| 
+|
 | /* System header to define __stub macros and hopefully few prototypes,
 |     which can conflict with char gamma (); below.
 |     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
 |     <limits.h> exists even on freestanding compilers.  */
-| 
+|
 | #ifdef __STDC__
 | # include <limits.h>
 | #else
 | # include <assert.h>
 | #endif
-| 
+|
 | #undef gamma
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -34192,7 +34192,7 @@ configure: failed program was:
 | #if defined __stub_gamma || defined __stub___gamma
 | choke me
 | #endif
-| 
+|
 | int
 | main ()
 | {
@@ -34637,7 +34637,7 @@ configure: failed program was:
 | #define HAVE_DECL_RTLD_NOLOAD 1
 | /* end confdefs.h.  */
 | #include <dlfcn.h>
-| 
+|
 | int
 | main ()
 | {
@@ -34648,7 +34648,7 @@ configure: failed program was:
 |   (void) RTLD_DEEPBIND;
 | #endif
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -34978,7 +34978,7 @@ configure: failed program was:
 | #define HAVE_DECL_RTLD_DEEPBIND 0
 | /* end confdefs.h.  */
 | #include <dlfcn.h>
-| 
+|
 | int
 | main ()
 | {
@@ -34989,7 +34989,7 @@ configure: failed program was:
 |   (void) RTLD_MEMBER;
 | #endif
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -35336,14 +35336,14 @@ configure: failed program was:
 | #define HAVE_WCHAR_H 1
 | /* end confdefs.h.  */
 | #include <wchar.h>
-| 
+|
 | int
 | main ()
 | {
 | static int test_array [1 - 2 * !(((long int) (sizeof (wchar_t))) <= 0)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -35674,14 +35674,14 @@ configure: failed program was:
 | #define HAVE_WCHAR_H 1
 | /* end confdefs.h.  */
 | #include <wchar.h>
-| 
+|
 | int
 | main ()
 | {
 | static int test_array [1 - 2 * !(((long int) (sizeof (wchar_t))) <= 1)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -36012,14 +36012,14 @@ configure: failed program was:
 | #define HAVE_WCHAR_H 1
 | /* end confdefs.h.  */
 | #include <wchar.h>
-| 
+|
 | int
 | main ()
 | {
 | static int test_array [1 - 2 * !(((long int) (sizeof (wchar_t))) <= 3)];
 | test_array [0] = 0;
 | return test_array [0];
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -36358,7 +36358,7 @@ configure: failed program was:
 | #define HAVE_WCHAR_H 1
 | #define SIZEOF_WCHAR_T 4
 | /* end confdefs.h.  */
-| 
+|
 | #include <tcl.h>
 | #if TCL_UTF_MAX != 6
 | # error "NOT UCS4_TCL"
@@ -36366,7 +36366,7 @@ configure: failed program was:
 | int
 | main ()
 | {
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -36711,7 +36711,7 @@ configure: failed program was:
 | 	       not a universal capable compiler
 | 	     #endif
 | 	     typedef int dummy;
-| 
+|
 configure:15189: /src/emsdk/emsdk/upstream/emscripten/emcc -c -O2 -g0 -fPIC  -I/src/cpython/build/sqlite-autoconf-3270200 -I/src/cpython/build/bzip2-1.0.2 -I/src/cpython/build/zlib-1.2.12 conftest.c >&5
 configure:15189: $? = 0
 configure:15207: /src/emsdk/emsdk/upstream/emscripten/emcc -c -O2 -g0 -fPIC  -I/src/cpython/build/sqlite-autoconf-3270200 -I/src/cpython/build/bzip2-1.0.2 -I/src/cpython/build/zlib-1.2.12 conftest.c >&5
@@ -37043,20 +37043,20 @@ configure: failed program was:
 | /* end confdefs.h.  */
 | #include <sys/types.h>
 | 		#include <sys/param.h>
-| 
+|
 | int
 | main ()
 | {
 | #if BYTE_ORDER != BIG_ENDIAN
 | 		 not big endian
 | 		#endif
-| 
+|
 |   ;
 |   return 0;
 | }
 configure:15335: result: no
 configure:15370: checking ABIFLAGS
-configure:15372: result: 
+configure:15372: result:
 configure:15374: checking SOABI
 configure:15377: result: cpython-39
 configure:15395: checking LDVERSION
@@ -37395,7 +37395,7 @@ configure: failed program was:
 | #define SIZEOF_WCHAR_T 4
 | #define HAVE_GETC_UNLOCKED 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -37736,7 +37736,7 @@ configure: failed program was:
 | #define SIZEOF_WCHAR_T 4
 | #define HAVE_GETC_UNLOCKED 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -38077,7 +38077,7 @@ configure: failed program was:
 | #define SIZEOF_WCHAR_T 4
 | #define HAVE_GETC_UNLOCKED 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -38418,7 +38418,7 @@ configure: failed program was:
 | #define SIZEOF_WCHAR_T 4
 | #define HAVE_GETC_UNLOCKED 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -38759,7 +38759,7 @@ configure: failed program was:
 | #define SIZEOF_WCHAR_T 4
 | #define HAVE_GETC_UNLOCKED 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -39100,7 +39100,7 @@ configure: failed program was:
 | #define SIZEOF_WCHAR_T 4
 | #define HAVE_GETC_UNLOCKED 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -39775,7 +39775,7 @@ configure: failed program was:
 | #define SIZEOF_WCHAR_T 4
 | #define HAVE_GETC_UNLOCKED 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -40121,7 +40121,7 @@ configure: failed program was:
 | #define SIZEOF_WCHAR_T 4
 | #define HAVE_GETC_UNLOCKED 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -40467,7 +40467,7 @@ configure: failed program was:
 | #define SIZEOF_WCHAR_T 4
 | #define HAVE_GETC_UNLOCKED 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -40813,7 +40813,7 @@ configure: failed program was:
 | #define SIZEOF_WCHAR_T 4
 | #define HAVE_GETC_UNLOCKED 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -41488,7 +41488,7 @@ configure: failed program was:
 | #define SIZEOF_WCHAR_T 4
 | #define HAVE_GETC_UNLOCKED 1
 | /* end confdefs.h.  */
-| 
+|
 | /* Override any GCC internal prototype to avoid an error.
 |    Use char because int might match the return type of a GCC
 |    builtin and then its argument prototype would still apply.  */
@@ -41848,10 +41848,10 @@ configure: failed program was:
 | int
 | main ()
 | {
-| 
+|
 | struct stat st;
 | st.st_mtimespec.tv_nsec = 1;
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -43584,12 +43584,12 @@ configure: failed program was:
 | #define HAVE_GETC_UNLOCKED 1
 | #define HAVE_STAT_TV_NSEC 1
 | /* end confdefs.h.  */
-| 
+|
 | #ifdef HAVE_CURSES_H
 | #include <curses.h>
 | #endif
-| 
-| 
+|
+|
 | #include <term.h>
 configure:16172: result: no
 configure:16189: checking whether mvwdelch is an expression
@@ -43926,10 +43926,10 @@ configure: failed program was:
 | int
 | main ()
 | {
-| 
+|
 |   int rtn;
 |   rtn = mvwdelch(0,0,0);
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -44264,17 +44264,17 @@ configure: failed program was:
 | #define HAVE_GETC_UNLOCKED 1
 | #define HAVE_STAT_TV_NSEC 1
 | /* end confdefs.h.  */
-| 
+|
 |   #define NCURSES_OPAQUE 0
 |   #include <curses.h>
-| 
+|
 | int
 | main ()
 | {
-| 
+|
 |   WINDOW *w;
 |   w->_flags = 0;
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -44613,11 +44613,11 @@ configure: failed program was:
 | int
 | main ()
 | {
-| 
+|
 | #ifndef is_pad
 | void *x=is_pad
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -45973,11 +45973,11 @@ configure: failed program was:
 | int
 | main ()
 | {
-| 
+|
 | #ifndef immedok
 | void *x=immedok
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -46316,11 +46316,11 @@ configure: failed program was:
 | int
 | main ()
 | {
-| 
+|
 | #ifndef syncok
 | void *x=syncok
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -46659,11 +46659,11 @@ configure: failed program was:
 | int
 | main ()
 | {
-| 
+|
 | #ifndef wchgat
 | void *x=wchgat
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -47002,11 +47002,11 @@ configure: failed program was:
 | int
 | main ()
 | {
-| 
+|
 | #ifndef filter
 | void *x=filter
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -47345,11 +47345,11 @@ configure: failed program was:
 | int
 | main ()
 | {
-| 
+|
 | #ifndef has_key
 | void *x=has_key
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -47688,11 +47688,11 @@ configure: failed program was:
 | int
 | main ()
 | {
-| 
+|
 | #ifndef typeahead
 | void *x=typeahead
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -48031,11 +48031,11 @@ configure: failed program was:
 | int
 | main ()
 | {
-| 
+|
 | #ifndef use_env
 | void *x=use_env
 | #endif
-| 
+|
 |   ;
 |   return 0;
 | }
@@ -48380,15 +48380,15 @@ configure: failed program was:
 | #define HAVE_STAT_TV_NSEC 1
 | #define PY_FORMAT_SIZE_T "z"
 | /* end confdefs.h.  */
-| 
+|
 | #ifdef HAVE_SYS_TYPES_H
 | #include <sys/types.h>
 | #endif
 | #ifdef HAVE_SYS_SOCKET_H
 | #include <sys/socket.h>
 | #endif
-| 
-| 
+|
+|
 | int
 | main ()
 | {
@@ -48760,12 +48760,12 @@ configure: failed program was:
 | #define HAVE_BUILTIN_ATOMIC 1
 | #define HAVE_DIRENT_D_TYPE 1
 | /* end confdefs.h.  */
-| 
-| 
+|
+|
 |     #include <unistd.h>
 |     #include <sys/syscall.h>
 |     #include <linux/random.h>
-| 
+|
 |     int main() {
 |         char buffer[1];
 |         const size_t buflen = sizeof(buffer);
@@ -48774,8 +48774,8 @@ configure: failed program was:
 |         (void)syscall(SYS_getrandom, buffer, buflen, flags);
 |         return 0;
 |     }
-| 
-| 
+|
+|
 configure:17177: result: no
 configure:17188: checking for the getrandom() function
 configure:17207: /src/emsdk/emsdk/upstream/emscripten/emcc -o conftest -O2 -g0 -fPIC  -I/src/cpython/build/sqlite-autoconf-3270200 -I/src/cpython/build/bzip2-1.0.2 -I/src/cpython/build/zlib-1.2.12  conftest.c -ldl  -lm >&5
@@ -49118,10 +49118,10 @@ configure: failed program was:
 | #define HAVE_BUILTIN_ATOMIC 1
 | #define HAVE_DIRENT_D_TYPE 1
 | /* end confdefs.h.  */
-| 
-| 
+|
+|
 |     #include <sys/random.h>
-| 
+|
 |     int main() {
 |         char buffer[1];
 |         const size_t buflen = sizeof(buffer);
@@ -49130,8 +49130,8 @@ configure: failed program was:
 |         (void)getrandom(buffer, buflen, flags);
 |         return 0;
 |     }
-| 
-| 
+|
+|
 configure:17214: result: no
 configure:17227: checking for library containing shm_open
 configure:17258: /src/emsdk/emsdk/upstream/emscripten/emcc -o conftest -O2 -g0 -fPIC  -I/src/cpython/build/sqlite-autoconf-3270200 -I/src/cpython/build/bzip2-1.0.2 -I/src/cpython/build/zlib-1.2.12  conftest.c -ldl  -lm >&5
@@ -49530,11 +49530,11 @@ configure:17775: creating ./config.status
 This file was extended by python config.status 3.9, which was
 generated by GNU Autoconf 2.69.  Invocation command line was
 
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status 
+  CONFIG_FILES    =
+  CONFIG_HEADERS  =
+  CONFIG_LINKS    =
+  CONFIG_COMMANDS =
+  $ ./config.status
 
 on 9497ada44266
 

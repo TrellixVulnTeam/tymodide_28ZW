@@ -1,0 +1,132 @@
+running install
+running bdist_egg
+running egg_info
+writing pyparsing.egg-info/PKG-INFO
+writing dependency_links to pyparsing.egg-info/dependency_links.txt
+writing requirements to pyparsing.egg-info/requires.txt
+writing top-level names to pyparsing.egg-info/top_level.txt
+reading manifest file 'pyparsing.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'docs/_build/*'
+no previously-included directories found matching 'tests/__pycache__'
+adding license file 'LICENSE'
+writing manifest file 'pyparsing.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/pyparsing
+copying pyparsing/__init__.py -> build/lib/pyparsing
+copying pyparsing/actions.py -> build/lib/pyparsing
+copying pyparsing/common.py -> build/lib/pyparsing
+copying pyparsing/core.py -> build/lib/pyparsing
+copying pyparsing/exceptions.py -> build/lib/pyparsing
+copying pyparsing/helpers.py -> build/lib/pyparsing
+copying pyparsing/results.py -> build/lib/pyparsing
+copying pyparsing/testing.py -> build/lib/pyparsing
+copying pyparsing/unicode.py -> build/lib/pyparsing
+copying pyparsing/util.py -> build/lib/pyparsing
+creating build/lib/pyparsing/diagram
+copying pyparsing/diagram/__init__.py -> build/lib/pyparsing/diagram
+copying pyparsing/diagram/template.jinja2 -> build/lib/pyparsing/diagram
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/pyparsing
+copying build/lib/pyparsing/__init__.py -> build/bdist.linux-x86_64/egg/pyparsing
+copying build/lib/pyparsing/actions.py -> build/bdist.linux-x86_64/egg/pyparsing
+copying build/lib/pyparsing/common.py -> build/bdist.linux-x86_64/egg/pyparsing
+copying build/lib/pyparsing/core.py -> build/bdist.linux-x86_64/egg/pyparsing
+creating build/bdist.linux-x86_64/egg/pyparsing/diagram
+copying build/lib/pyparsing/diagram/__init__.py -> build/bdist.linux-x86_64/egg/pyparsing/diagram
+copying build/lib/pyparsing/diagram/template.jinja2 -> build/bdist.linux-x86_64/egg/pyparsing/diagram
+copying build/lib/pyparsing/exceptions.py -> build/bdist.linux-x86_64/egg/pyparsing
+copying build/lib/pyparsing/helpers.py -> build/bdist.linux-x86_64/egg/pyparsing
+copying build/lib/pyparsing/results.py -> build/bdist.linux-x86_64/egg/pyparsing
+copying build/lib/pyparsing/testing.py -> build/bdist.linux-x86_64/egg/pyparsing
+copying build/lib/pyparsing/unicode.py -> build/bdist.linux-x86_64/egg/pyparsing
+copying build/lib/pyparsing/util.py -> build/bdist.linux-x86_64/egg/pyparsing
+byte-compiling build/bdist.linux-x86_64/egg/pyparsing/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyparsing/actions.py to actions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyparsing/common.py to common.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyparsing/core.py to core.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyparsing/diagram/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyparsing/exceptions.py to exceptions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyparsing/helpers.py to helpers.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyparsing/results.py to results.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyparsing/testing.py to testing.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyparsing/unicode.py to unicode.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyparsing/util.py to util.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyparsing.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyparsing.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyparsing.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyparsing.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyparsing.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+pyparsing.__pycache__.exceptions.cpython-39: module MAY be using inspect.getinnerframes
+creating dist
+creating 'dist/pyparsing-3.0.6-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing pyparsing-3.0.6-py3.9.egg
+creating /src/packages/.artifacts/lib/python/pyparsing-3.0.6-py3.9.egg
+Extracting pyparsing-3.0.6-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding pyparsing 3.0.6 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/pyparsing-3.0.6-py3.9.egg
+Processing dependencies for pyparsing==3.0.6
+Finished processing dependencies for pyparsing==3.0.6
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/pyparsing
+copying build/lib/pyparsing/__init__.py -> install/lib/python3.9/site-packages/pyparsing
+copying build/lib/pyparsing/actions.py -> install/lib/python3.9/site-packages/pyparsing
+copying build/lib/pyparsing/common.py -> install/lib/python3.9/site-packages/pyparsing
+copying build/lib/pyparsing/core.py -> install/lib/python3.9/site-packages/pyparsing
+creating install/lib/python3.9/site-packages/pyparsing/diagram
+copying build/lib/pyparsing/diagram/__init__.py -> install/lib/python3.9/site-packages/pyparsing/diagram
+copying build/lib/pyparsing/diagram/template.jinja2 -> install/lib/python3.9/site-packages/pyparsing/diagram
+copying build/lib/pyparsing/exceptions.py -> install/lib/python3.9/site-packages/pyparsing
+copying build/lib/pyparsing/helpers.py -> install/lib/python3.9/site-packages/pyparsing
+copying build/lib/pyparsing/results.py -> install/lib/python3.9/site-packages/pyparsing
+copying build/lib/pyparsing/testing.py -> install/lib/python3.9/site-packages/pyparsing
+copying build/lib/pyparsing/unicode.py -> install/lib/python3.9/site-packages/pyparsing
+copying build/lib/pyparsing/util.py -> install/lib/python3.9/site-packages/pyparsing
+byte-compiling install/lib/python3.9/site-packages/pyparsing/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyparsing/actions.py to actions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyparsing/common.py to common.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyparsing/core.py to core.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyparsing/diagram/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyparsing/exceptions.py to exceptions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyparsing/helpers.py to helpers.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyparsing/results.py to results.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyparsing/testing.py to testing.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyparsing/unicode.py to unicode.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyparsing/util.py to util.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing pyparsing.egg-info/PKG-INFO
+writing dependency_links to pyparsing.egg-info/dependency_links.txt
+writing requirements to pyparsing.egg-info/requires.txt
+writing top-level names to pyparsing.egg-info/top_level.txt
+reading manifest file 'pyparsing.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'docs/_build/*'
+no previously-included directories found matching 'tests/__pycache__'
+adding license file 'LICENSE'
+writing manifest file 'pyparsing.egg-info/SOURCES.txt'
+Copying pyparsing.egg-info to install/lib/python3.9/site-packages/pyparsing-3.0.6-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 372853
+compressed package into 212454
+compressed in 46 ms
+(node:40743) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[2022-05-25 15:12:08] Building package pyparsing...
+[2022-05-25 15:12:23] Succeeded building package pyparsing in 14.7 seconds.

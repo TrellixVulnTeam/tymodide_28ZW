@@ -1,0 +1,14 @@
+package:
+  name: bleach
+  version: 4.1.0
+requirements:
+  run:
+    - webencodings
+    - packaging
+    - six
+source:
+  sha256: 0900d8b37eba61a802ee40ac0061f8c2b5dee29c1927dd1d233e075ebf5a71da
+  url: https://files.pythonhosted.org/packages/6a/a3/217842324374fd3fb33db0eb4c2909ccf3ecc5a94f458088ac68581f8314/bleach-4.1.0.tar.gz
+test:
+  imports:
+    - bleach

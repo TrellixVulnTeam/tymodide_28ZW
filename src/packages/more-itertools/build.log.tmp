@@ -1,0 +1,103 @@
+/Users/thomasj/tymodide/pyodide/emsdk/emsdk/node/14.18.2_64bit/bin/node: /Users/thomasj/tymodide/pyodide/emsdk/emsdk/node/14.18.2_64bit/bin/node: cannot execute binary file
+running install
+running bdist_egg
+running egg_info
+writing more_itertools.egg-info/PKG-INFO
+writing dependency_links to more_itertools.egg-info/dependency_links.txt
+writing top-level names to more_itertools.egg-info/top_level.txt
+reading manifest file 'more_itertools.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 4.0.0-unsupported is an invalid version and will not be supported in a future release
+  warnings.warn(
+warning: no files found matching 'fabfile.py'
+adding license file 'LICENSE'
+writing manifest file 'more_itertools.egg-info/SOURCES.txt'
+installing library code to build/bdist.macosx-10.9-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/more_itertools
+copying more_itertools/__init__.py -> build/lib/more_itertools
+copying more_itertools/more.py -> build/lib/more_itertools
+copying more_itertools/recipes.py -> build/lib/more_itertools
+creating build/bdist.macosx-10.9-x86_64
+creating build/bdist.macosx-10.9-x86_64/egg
+creating build/bdist.macosx-10.9-x86_64/egg/more_itertools
+copying build/lib/more_itertools/__init__.py -> build/bdist.macosx-10.9-x86_64/egg/more_itertools
+copying build/lib/more_itertools/more.py -> build/bdist.macosx-10.9-x86_64/egg/more_itertools
+copying build/lib/more_itertools/recipes.py -> build/bdist.macosx-10.9-x86_64/egg/more_itertools
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/more_itertools/__init__.py to __init__.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/more_itertools/more.py to more.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/more_itertools/recipes.py to recipes.cpython-38.pyc
+creating build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying more_itertools.egg-info/PKG-INFO -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying more_itertools.egg-info/SOURCES.txt -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying more_itertools.egg-info/dependency_links.txt -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying more_itertools.egg-info/top_level.txt -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/more_itertools-8.8.0-py3.8.egg' and adding 'build/bdist.macosx-10.9-x86_64/egg' to it
+removing 'build/bdist.macosx-10.9-x86_64/egg' (and everything under it)
+Processing more_itertools-8.8.0-py3.8.egg
+Copying more_itertools-8.8.0-py3.8.egg to /Users/thomasj/tymodide/pyodide/packages/.artifacts/lib/python
+Adding more-itertools 8.8.0 to easy-install.pth file
+
+Installed /Users/thomasj/tymodide/pyodide/packages/.artifacts/lib/python/more_itertools-8.8.0-py3.8.egg
+Processing dependencies for more-itertools==8.8.0
+Finished processing dependencies for more-itertools==8.8.0
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.8
+creating install/lib/python3.8/site-packages
+creating install/lib/python3.8/site-packages/more_itertools
+copying build/lib/more_itertools/__init__.py -> install/lib/python3.8/site-packages/more_itertools
+copying build/lib/more_itertools/more.py -> install/lib/python3.8/site-packages/more_itertools
+copying build/lib/more_itertools/recipes.py -> install/lib/python3.8/site-packages/more_itertools
+byte-compiling install/lib/python3.8/site-packages/more_itertools/__init__.py to __init__.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/more_itertools/more.py to more.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/more_itertools/recipes.py to recipes.cpython-38.pyc
+running install_egg_info
+running egg_info
+writing more_itertools.egg-info/PKG-INFO
+writing dependency_links to more_itertools.egg-info/dependency_links.txt
+writing top-level names to more_itertools.egg-info/top_level.txt
+reading manifest file 'more_itertools.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+warning: no files found matching 'fabfile.py'
+adding license file 'LICENSE'
+writing manifest file 'more_itertools.egg-info/SOURCES.txt'
+Copying more_itertools.egg-info to install/lib/python3.8/site-packages/more_itertools-8.8.0-py3.8.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+file_packager: error: '/Users/thomasj/tymodide/pyodide/emsdk/emsdk/node/14.18.2_64bit/bin/node /Users/thomasj/tymodide/pyodide/emsdk/emsdk/upstream/emscripten/tools/lz4-compress.js /Users/thomasj/tymodide/pyodide/emsdk/emsdk/upstream/emscripten/third_party/mini-lz4.js more-itertools.data.orig more-itertools.data' failed: [Errno 8] Exec format error: '/Users/thomasj/tymodide/pyodide/emsdk/emsdk/node/14.18.2_64bit/bin/node'
+Traceback (most recent call last):
+  File "/Users/thomasj/opt/anaconda3/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/thomasj/opt/anaconda3/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/__main__.py", line 62, in <module>
+    main()
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/__main__.py", line 56, in main
+    args.func(args)
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/buildpkg.py", line 862, in main
+    build_package(
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/buildpkg.py", line 700, in build_package
+    package_files(
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/buildpkg.py", line 530, in package_files
+    common.invoke_file_packager(
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/common.py", line 86, in invoke_file_packager
+    subprocess.run(
+  File "/Users/thomasj/opt/anaconda3/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/Users/thomasj/tymodide/pyodide/emsdk/emsdk/upstream/emscripten/tools/file_packager', 'more-itertools.data', '--js-output=more-itertools.js', '--preload', '/Users/thomasj/tymodide/pyodide/packages/more-itertools/build/more-itertools-8.8.0/install@/', '--lz4', '--export-name=globalThis.__pyodide_module', '--exclude', '*__pycache__*', '--use-preload-plugins']' returned non-zero exit status 1.
+[2022-08-04 09:39:04] Building package more-itertools...
+[2022-08-04 09:39:10] Failed building package more-itertools in 6.7 seconds.

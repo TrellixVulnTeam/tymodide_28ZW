@@ -1,0 +1,364 @@
+/Users/thomasj/tymodide/pyodide/emsdk/emsdk/node/14.18.2_64bit/bin/node: /Users/thomasj/tymodide/pyodide/emsdk/emsdk/node/14.18.2_64bit/bin/node: cannot execute binary file
+running install
+running bdist_egg
+running egg_info
+writing py.egg-info/PKG-INFO
+writing dependency_links to py.egg-info/dependency_links.txt
+writing top-level names to py.egg-info/top_level.txt
+reading manifest file 'py.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/setuptools/config/setupcfg.py:459: SetuptoolsDeprecationWarning: The license_file parameter is deprecated, use license_files instead.
+  warnings.warn(msg, warning_class)
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 4.0.0-unsupported is an invalid version and will not be supported in a future release
+  warnings.warn(
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/setuptools/installer.py:27: SetuptoolsDeprecationWarning: setuptools.installer is deprecated. Requirements should be satisfied by a PEP 517 installer.
+  warnings.warn(
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 4.0.0-unsupported is an invalid version and will not be supported in a future release
+  warnings.warn(
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+adding license file 'LICENSE'
+writing manifest file 'py.egg-info/SOURCES.txt'
+installing library code to build/bdist.macosx-10.9-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/py
+copying py/_xmlgen.py -> build/lib/py
+copying py/_version.py -> build/lib/py
+copying py/_error.py -> build/lib/py
+copying py/__init__.py -> build/lib/py
+copying py/__metainfo.py -> build/lib/py
+copying py/test.py -> build/lib/py
+copying py/_std.py -> build/lib/py
+copying py/_builtin.py -> build/lib/py
+creating build/lib/py/_process
+copying py/_process/cmdexec.py -> build/lib/py/_process
+copying py/_process/__init__.py -> build/lib/py/_process
+copying py/_process/forkedfunc.py -> build/lib/py/_process
+copying py/_process/killproc.py -> build/lib/py/_process
+creating build/lib/py/_vendored_packages
+copying py/_vendored_packages/apipkg.py -> build/lib/py/_vendored_packages
+copying py/_vendored_packages/iniconfig.py -> build/lib/py/_vendored_packages
+copying py/_vendored_packages/__init__.py -> build/lib/py/_vendored_packages
+creating build/lib/py/_path
+copying py/_path/local.py -> build/lib/py/_path
+copying py/_path/__init__.py -> build/lib/py/_path
+copying py/_path/common.py -> build/lib/py/_path
+copying py/_path/svnurl.py -> build/lib/py/_path
+copying py/_path/svnwc.py -> build/lib/py/_path
+copying py/_path/cacheutil.py -> build/lib/py/_path
+creating build/lib/py/_log
+copying py/_log/log.py -> build/lib/py/_log
+copying py/_log/__init__.py -> build/lib/py/_log
+copying py/_log/warning.py -> build/lib/py/_log
+creating build/lib/py/_code
+copying py/_code/_assertionold.py -> build/lib/py/_code
+copying py/_code/code.py -> build/lib/py/_code
+copying py/_code/__init__.py -> build/lib/py/_code
+copying py/_code/assertion.py -> build/lib/py/_code
+copying py/_code/_assertionnew.py -> build/lib/py/_code
+copying py/_code/source.py -> build/lib/py/_code
+copying py/_code/_py2traceback.py -> build/lib/py/_code
+creating build/lib/py/_io
+copying py/_io/saferepr.py -> build/lib/py/_io
+copying py/_io/terminalwriter.py -> build/lib/py/_io
+copying py/_io/__init__.py -> build/lib/py/_io
+copying py/_io/capture.py -> build/lib/py/_io
+copying py/__init__.pyi -> build/lib/py
+copying py/error.pyi -> build/lib/py
+copying py/iniconfig.pyi -> build/lib/py
+copying py/io.pyi -> build/lib/py
+copying py/path.pyi -> build/lib/py
+copying py/py.typed -> build/lib/py
+copying py/xml.pyi -> build/lib/py
+creating build/lib/py/_vendored_packages/apipkg-1.4.dist-info
+copying py/_vendored_packages/apipkg-1.4.dist-info/DESCRIPTION.rst -> build/lib/py/_vendored_packages/apipkg-1.4.dist-info
+copying py/_vendored_packages/apipkg-1.4.dist-info/INSTALLER -> build/lib/py/_vendored_packages/apipkg-1.4.dist-info
+copying py/_vendored_packages/apipkg-1.4.dist-info/METADATA -> build/lib/py/_vendored_packages/apipkg-1.4.dist-info
+copying py/_vendored_packages/apipkg-1.4.dist-info/RECORD -> build/lib/py/_vendored_packages/apipkg-1.4.dist-info
+copying py/_vendored_packages/apipkg-1.4.dist-info/WHEEL -> build/lib/py/_vendored_packages/apipkg-1.4.dist-info
+copying py/_vendored_packages/apipkg-1.4.dist-info/metadata.json -> build/lib/py/_vendored_packages/apipkg-1.4.dist-info
+copying py/_vendored_packages/apipkg-1.4.dist-info/top_level.txt -> build/lib/py/_vendored_packages/apipkg-1.4.dist-info
+creating build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying py/_vendored_packages/iniconfig-1.0.0.dist-info/DESCRIPTION.rst -> build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying py/_vendored_packages/iniconfig-1.0.0.dist-info/INSTALLER -> build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying py/_vendored_packages/iniconfig-1.0.0.dist-info/METADATA -> build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying py/_vendored_packages/iniconfig-1.0.0.dist-info/RECORD -> build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying py/_vendored_packages/iniconfig-1.0.0.dist-info/WHEEL -> build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying py/_vendored_packages/iniconfig-1.0.0.dist-info/metadata.json -> build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying py/_vendored_packages/iniconfig-1.0.0.dist-info/top_level.txt -> build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info
+creating build/bdist.macosx-10.9-x86_64
+creating build/bdist.macosx-10.9-x86_64/egg
+creating build/bdist.macosx-10.9-x86_64/egg/py
+copying build/lib/py/iniconfig.pyi -> build/bdist.macosx-10.9-x86_64/egg/py
+copying build/lib/py/_xmlgen.py -> build/bdist.macosx-10.9-x86_64/egg/py
+creating build/bdist.macosx-10.9-x86_64/egg/py/_process
+copying build/lib/py/_process/cmdexec.py -> build/bdist.macosx-10.9-x86_64/egg/py/_process
+copying build/lib/py/_process/__init__.py -> build/bdist.macosx-10.9-x86_64/egg/py/_process
+copying build/lib/py/_process/forkedfunc.py -> build/bdist.macosx-10.9-x86_64/egg/py/_process
+copying build/lib/py/_process/killproc.py -> build/bdist.macosx-10.9-x86_64/egg/py/_process
+copying build/lib/py/error.pyi -> build/bdist.macosx-10.9-x86_64/egg/py
+copying build/lib/py/__init__.pyi -> build/bdist.macosx-10.9-x86_64/egg/py
+copying build/lib/py/_version.py -> build/bdist.macosx-10.9-x86_64/egg/py
+creating build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages
+copying build/lib/py/_vendored_packages/apipkg.py -> build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages
+copying build/lib/py/_vendored_packages/iniconfig.py -> build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages
+copying build/lib/py/_vendored_packages/__init__.py -> build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages
+creating build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/RECORD -> build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/metadata.json -> build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/WHEEL -> build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/DESCRIPTION.rst -> build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/top_level.txt -> build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/INSTALLER -> build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/METADATA -> build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages/apipkg-1.4.dist-info
+creating build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/RECORD -> build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/metadata.json -> build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/WHEEL -> build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/DESCRIPTION.rst -> build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/top_level.txt -> build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/INSTALLER -> build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/METADATA -> build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages/iniconfig-1.0.0.dist-info
+creating build/bdist.macosx-10.9-x86_64/egg/py/_path
+copying build/lib/py/_path/local.py -> build/bdist.macosx-10.9-x86_64/egg/py/_path
+copying build/lib/py/_path/__init__.py -> build/bdist.macosx-10.9-x86_64/egg/py/_path
+copying build/lib/py/_path/common.py -> build/bdist.macosx-10.9-x86_64/egg/py/_path
+copying build/lib/py/_path/svnurl.py -> build/bdist.macosx-10.9-x86_64/egg/py/_path
+copying build/lib/py/_path/svnwc.py -> build/bdist.macosx-10.9-x86_64/egg/py/_path
+copying build/lib/py/_path/cacheutil.py -> build/bdist.macosx-10.9-x86_64/egg/py/_path
+copying build/lib/py/_error.py -> build/bdist.macosx-10.9-x86_64/egg/py
+creating build/bdist.macosx-10.9-x86_64/egg/py/_log
+copying build/lib/py/_log/log.py -> build/bdist.macosx-10.9-x86_64/egg/py/_log
+copying build/lib/py/_log/__init__.py -> build/bdist.macosx-10.9-x86_64/egg/py/_log
+copying build/lib/py/_log/warning.py -> build/bdist.macosx-10.9-x86_64/egg/py/_log
+copying build/lib/py/__init__.py -> build/bdist.macosx-10.9-x86_64/egg/py
+copying build/lib/py/__metainfo.py -> build/bdist.macosx-10.9-x86_64/egg/py
+creating build/bdist.macosx-10.9-x86_64/egg/py/_code
+copying build/lib/py/_code/_assertionold.py -> build/bdist.macosx-10.9-x86_64/egg/py/_code
+copying build/lib/py/_code/code.py -> build/bdist.macosx-10.9-x86_64/egg/py/_code
+copying build/lib/py/_code/__init__.py -> build/bdist.macosx-10.9-x86_64/egg/py/_code
+copying build/lib/py/_code/assertion.py -> build/bdist.macosx-10.9-x86_64/egg/py/_code
+copying build/lib/py/_code/_assertionnew.py -> build/bdist.macosx-10.9-x86_64/egg/py/_code
+copying build/lib/py/_code/source.py -> build/bdist.macosx-10.9-x86_64/egg/py/_code
+copying build/lib/py/_code/_py2traceback.py -> build/bdist.macosx-10.9-x86_64/egg/py/_code
+copying build/lib/py/test.py -> build/bdist.macosx-10.9-x86_64/egg/py
+creating build/bdist.macosx-10.9-x86_64/egg/py/_io
+copying build/lib/py/_io/saferepr.py -> build/bdist.macosx-10.9-x86_64/egg/py/_io
+copying build/lib/py/_io/terminalwriter.py -> build/bdist.macosx-10.9-x86_64/egg/py/_io
+copying build/lib/py/_io/__init__.py -> build/bdist.macosx-10.9-x86_64/egg/py/_io
+copying build/lib/py/_io/capture.py -> build/bdist.macosx-10.9-x86_64/egg/py/_io
+copying build/lib/py/_std.py -> build/bdist.macosx-10.9-x86_64/egg/py
+copying build/lib/py/py.typed -> build/bdist.macosx-10.9-x86_64/egg/py
+copying build/lib/py/_builtin.py -> build/bdist.macosx-10.9-x86_64/egg/py
+copying build/lib/py/path.pyi -> build/bdist.macosx-10.9-x86_64/egg/py
+copying build/lib/py/xml.pyi -> build/bdist.macosx-10.9-x86_64/egg/py
+copying build/lib/py/io.pyi -> build/bdist.macosx-10.9-x86_64/egg/py
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_xmlgen.py to _xmlgen.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_process/cmdexec.py to cmdexec.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_process/__init__.py to __init__.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_process/forkedfunc.py to forkedfunc.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_process/killproc.py to killproc.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_version.py to _version.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages/apipkg.py to apipkg.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages/iniconfig.py to iniconfig.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_vendored_packages/__init__.py to __init__.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_path/local.py to local.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_path/__init__.py to __init__.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_path/common.py to common.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_path/svnurl.py to svnurl.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_path/svnwc.py to svnwc.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_path/cacheutil.py to cacheutil.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_error.py to _error.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_log/log.py to log.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_log/__init__.py to __init__.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_log/warning.py to warning.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/__init__.py to __init__.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/__metainfo.py to __metainfo.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_code/_assertionold.py to _assertionold.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_code/code.py to code.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_code/__init__.py to __init__.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_code/assertion.py to assertion.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_code/_assertionnew.py to _assertionnew.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_code/source.py to source.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_code/_py2traceback.py to _py2traceback.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/test.py to test.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_io/saferepr.py to saferepr.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_io/terminalwriter.py to terminalwriter.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_io/__init__.py to __init__.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_io/capture.py to capture.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_std.py to _std.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/py/_builtin.py to _builtin.cpython-38.pyc
+creating build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying py.egg-info/PKG-INFO -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying py.egg-info/SOURCES.txt -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying py.egg-info/dependency_links.txt -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying py.egg-info/not-zip-safe -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying py.egg-info/top_level.txt -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/py-1.9.0-py3.8.egg' and adding 'build/bdist.macosx-10.9-x86_64/egg' to it
+removing 'build/bdist.macosx-10.9-x86_64/egg' (and everything under it)
+Processing py-1.9.0-py3.8.egg
+removing '/Users/thomasj/tymodide/pyodide/packages/.artifacts/lib/python/py-1.9.0-py3.8.egg' (and everything under it)
+creating /Users/thomasj/tymodide/pyodide/packages/.artifacts/lib/python/py-1.9.0-py3.8.egg
+Extracting py-1.9.0-py3.8.egg to /Users/thomasj/tymodide/pyodide/packages/.artifacts/lib/python
+py 1.9.0 is already the active version in easy-install.pth
+
+Installed /Users/thomasj/tymodide/pyodide/packages/.artifacts/lib/python/py-1.9.0-py3.8.egg
+Processing dependencies for py==1.9.0
+Finished processing dependencies for py==1.9.0
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.8
+creating install/lib/python3.8/site-packages
+creating install/lib/python3.8/site-packages/py
+copying build/lib/py/iniconfig.pyi -> install/lib/python3.8/site-packages/py
+copying build/lib/py/_xmlgen.py -> install/lib/python3.8/site-packages/py
+creating install/lib/python3.8/site-packages/py/_process
+copying build/lib/py/_process/cmdexec.py -> install/lib/python3.8/site-packages/py/_process
+copying build/lib/py/_process/__init__.py -> install/lib/python3.8/site-packages/py/_process
+copying build/lib/py/_process/forkedfunc.py -> install/lib/python3.8/site-packages/py/_process
+copying build/lib/py/_process/killproc.py -> install/lib/python3.8/site-packages/py/_process
+copying build/lib/py/error.pyi -> install/lib/python3.8/site-packages/py
+copying build/lib/py/__init__.pyi -> install/lib/python3.8/site-packages/py
+copying build/lib/py/_version.py -> install/lib/python3.8/site-packages/py
+creating install/lib/python3.8/site-packages/py/_vendored_packages
+copying build/lib/py/_vendored_packages/apipkg.py -> install/lib/python3.8/site-packages/py/_vendored_packages
+copying build/lib/py/_vendored_packages/iniconfig.py -> install/lib/python3.8/site-packages/py/_vendored_packages
+copying build/lib/py/_vendored_packages/__init__.py -> install/lib/python3.8/site-packages/py/_vendored_packages
+creating install/lib/python3.8/site-packages/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/RECORD -> install/lib/python3.8/site-packages/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/metadata.json -> install/lib/python3.8/site-packages/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/WHEEL -> install/lib/python3.8/site-packages/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/DESCRIPTION.rst -> install/lib/python3.8/site-packages/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/top_level.txt -> install/lib/python3.8/site-packages/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/INSTALLER -> install/lib/python3.8/site-packages/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/METADATA -> install/lib/python3.8/site-packages/py/_vendored_packages/apipkg-1.4.dist-info
+creating install/lib/python3.8/site-packages/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/RECORD -> install/lib/python3.8/site-packages/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/metadata.json -> install/lib/python3.8/site-packages/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/WHEEL -> install/lib/python3.8/site-packages/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/DESCRIPTION.rst -> install/lib/python3.8/site-packages/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/top_level.txt -> install/lib/python3.8/site-packages/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/INSTALLER -> install/lib/python3.8/site-packages/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/METADATA -> install/lib/python3.8/site-packages/py/_vendored_packages/iniconfig-1.0.0.dist-info
+creating install/lib/python3.8/site-packages/py/_path
+copying build/lib/py/_path/local.py -> install/lib/python3.8/site-packages/py/_path
+copying build/lib/py/_path/__init__.py -> install/lib/python3.8/site-packages/py/_path
+copying build/lib/py/_path/common.py -> install/lib/python3.8/site-packages/py/_path
+copying build/lib/py/_path/svnurl.py -> install/lib/python3.8/site-packages/py/_path
+copying build/lib/py/_path/svnwc.py -> install/lib/python3.8/site-packages/py/_path
+copying build/lib/py/_path/cacheutil.py -> install/lib/python3.8/site-packages/py/_path
+copying build/lib/py/_error.py -> install/lib/python3.8/site-packages/py
+creating install/lib/python3.8/site-packages/py/_log
+copying build/lib/py/_log/log.py -> install/lib/python3.8/site-packages/py/_log
+copying build/lib/py/_log/__init__.py -> install/lib/python3.8/site-packages/py/_log
+copying build/lib/py/_log/warning.py -> install/lib/python3.8/site-packages/py/_log
+copying build/lib/py/__init__.py -> install/lib/python3.8/site-packages/py
+copying build/lib/py/__metainfo.py -> install/lib/python3.8/site-packages/py
+creating install/lib/python3.8/site-packages/py/_code
+copying build/lib/py/_code/_assertionold.py -> install/lib/python3.8/site-packages/py/_code
+copying build/lib/py/_code/code.py -> install/lib/python3.8/site-packages/py/_code
+copying build/lib/py/_code/__init__.py -> install/lib/python3.8/site-packages/py/_code
+copying build/lib/py/_code/assertion.py -> install/lib/python3.8/site-packages/py/_code
+copying build/lib/py/_code/_assertionnew.py -> install/lib/python3.8/site-packages/py/_code
+copying build/lib/py/_code/source.py -> install/lib/python3.8/site-packages/py/_code
+copying build/lib/py/_code/_py2traceback.py -> install/lib/python3.8/site-packages/py/_code
+copying build/lib/py/test.py -> install/lib/python3.8/site-packages/py
+creating install/lib/python3.8/site-packages/py/_io
+copying build/lib/py/_io/saferepr.py -> install/lib/python3.8/site-packages/py/_io
+copying build/lib/py/_io/terminalwriter.py -> install/lib/python3.8/site-packages/py/_io
+copying build/lib/py/_io/__init__.py -> install/lib/python3.8/site-packages/py/_io
+copying build/lib/py/_io/capture.py -> install/lib/python3.8/site-packages/py/_io
+copying build/lib/py/_std.py -> install/lib/python3.8/site-packages/py
+copying build/lib/py/py.typed -> install/lib/python3.8/site-packages/py
+copying build/lib/py/_builtin.py -> install/lib/python3.8/site-packages/py
+copying build/lib/py/path.pyi -> install/lib/python3.8/site-packages/py
+copying build/lib/py/xml.pyi -> install/lib/python3.8/site-packages/py
+copying build/lib/py/io.pyi -> install/lib/python3.8/site-packages/py
+byte-compiling install/lib/python3.8/site-packages/py/_xmlgen.py to _xmlgen.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_process/cmdexec.py to cmdexec.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_process/__init__.py to __init__.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_process/forkedfunc.py to forkedfunc.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_process/killproc.py to killproc.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_version.py to _version.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_vendored_packages/apipkg.py to apipkg.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_vendored_packages/iniconfig.py to iniconfig.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_vendored_packages/__init__.py to __init__.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_path/local.py to local.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_path/__init__.py to __init__.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_path/common.py to common.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_path/svnurl.py to svnurl.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_path/svnwc.py to svnwc.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_path/cacheutil.py to cacheutil.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_error.py to _error.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_log/log.py to log.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_log/__init__.py to __init__.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_log/warning.py to warning.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/__init__.py to __init__.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/__metainfo.py to __metainfo.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_code/_assertionold.py to _assertionold.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_code/code.py to code.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_code/__init__.py to __init__.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_code/assertion.py to assertion.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_code/_assertionnew.py to _assertionnew.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_code/source.py to source.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_code/_py2traceback.py to _py2traceback.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/test.py to test.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_io/saferepr.py to saferepr.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_io/terminalwriter.py to terminalwriter.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_io/__init__.py to __init__.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_io/capture.py to capture.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_std.py to _std.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/py/_builtin.py to _builtin.cpython-38.pyc
+running install_egg_info
+running egg_info
+writing py.egg-info/PKG-INFO
+writing dependency_links to py.egg-info/dependency_links.txt
+writing top-level names to py.egg-info/top_level.txt
+reading manifest file 'py.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/setuptools/config/setupcfg.py:459: SetuptoolsDeprecationWarning: The license_file parameter is deprecated, use license_files instead.
+  warnings.warn(msg, warning_class)
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 4.0.0-unsupported is an invalid version and will not be supported in a future release
+  warnings.warn(
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/setuptools/installer.py:27: SetuptoolsDeprecationWarning: setuptools.installer is deprecated. Requirements should be satisfied by a PEP 517 installer.
+  warnings.warn(
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+adding license file 'LICENSE'
+writing manifest file 'py.egg-info/SOURCES.txt'
+Copying py.egg-info to install/lib/python3.8/site-packages/py-1.9.0-py3.8.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+file_packager: error: '/Users/thomasj/tymodide/pyodide/emsdk/emsdk/node/14.18.2_64bit/bin/node /Users/thomasj/tymodide/pyodide/emsdk/emsdk/upstream/emscripten/tools/lz4-compress.js /Users/thomasj/tymodide/pyodide/emsdk/emsdk/upstream/emscripten/third_party/mini-lz4.js py.data.orig py.data' failed: [Errno 8] Exec format error: '/Users/thomasj/tymodide/pyodide/emsdk/emsdk/node/14.18.2_64bit/bin/node'
+Traceback (most recent call last):
+  File "/Users/thomasj/opt/anaconda3/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/thomasj/opt/anaconda3/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/__main__.py", line 62, in <module>
+    main()
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/__main__.py", line 56, in main
+    args.func(args)
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/buildpkg.py", line 862, in main
+    build_package(
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/buildpkg.py", line 700, in build_package
+    package_files(
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/buildpkg.py", line 530, in package_files
+    common.invoke_file_packager(
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/common.py", line 86, in invoke_file_packager
+    subprocess.run(
+  File "/Users/thomasj/opt/anaconda3/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/Users/thomasj/tymodide/pyodide/emsdk/emsdk/upstream/emscripten/tools/file_packager', 'py.data', '--js-output=py.js', '--preload', '/Users/thomasj/tymodide/pyodide/packages/py/build/py-1.9.0/install@/', '--lz4', '--export-name=globalThis.__pyodide_module', '--exclude', '*__pycache__*', '--use-preload-plugins']' returned non-zero exit status 1.
+[2022-08-04 09:42:19] Building package py...
+[2022-08-04 09:42:33] Failed building package py in 13.8 seconds.

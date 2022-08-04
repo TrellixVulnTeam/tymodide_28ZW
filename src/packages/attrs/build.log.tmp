@@ -1,0 +1,226 @@
+/Users/thomasj/tymodide/pyodide/emsdk/emsdk/node/14.18.2_64bit/bin/node: /Users/thomasj/tymodide/pyodide/emsdk/emsdk/node/14.18.2_64bit/bin/node: cannot execute binary file
+running install
+running bdist_egg
+running egg_info
+writing src/attrs.egg-info/PKG-INFO
+writing dependency_links to src/attrs.egg-info/dependency_links.txt
+writing requirements to src/attrs.egg-info/requires.txt
+writing top-level names to src/attrs.egg-info/top_level.txt
+reading manifest file 'src/attrs.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 4.0.0-unsupported is an invalid version and will not be supported in a future release
+  warnings.warn(
+no previously-included directories found matching 'docs/_build'
+adding license file 'LICENSE'
+adding license file 'AUTHORS.rst'
+writing manifest file 'src/attrs.egg-info/SOURCES.txt'
+installing library code to build/bdist.macosx-10.9-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/attrs
+copying src/attrs/setters.py -> build/lib/attrs
+copying src/attrs/validators.py -> build/lib/attrs
+copying src/attrs/__init__.py -> build/lib/attrs
+copying src/attrs/exceptions.py -> build/lib/attrs
+copying src/attrs/converters.py -> build/lib/attrs
+copying src/attrs/filters.py -> build/lib/attrs
+creating build/lib/attr
+copying src/attr/setters.py -> build/lib/attr
+copying src/attr/validators.py -> build/lib/attr
+copying src/attr/_make.py -> build/lib/attr
+copying src/attr/_cmp.py -> build/lib/attr
+copying src/attr/__init__.py -> build/lib/attr
+copying src/attr/_next_gen.py -> build/lib/attr
+copying src/attr/exceptions.py -> build/lib/attr
+copying src/attr/_version_info.py -> build/lib/attr
+copying src/attr/converters.py -> build/lib/attr
+copying src/attr/_compat.py -> build/lib/attr
+copying src/attr/_config.py -> build/lib/attr
+copying src/attr/_funcs.py -> build/lib/attr
+copying src/attr/filters.py -> build/lib/attr
+copying src/attrs/__init__.pyi -> build/lib/attrs
+copying src/attrs/py.typed -> build/lib/attrs
+copying src/attr/__init__.pyi -> build/lib/attr
+copying src/attr/_cmp.pyi -> build/lib/attr
+copying src/attr/_version_info.pyi -> build/lib/attr
+copying src/attr/converters.pyi -> build/lib/attr
+copying src/attr/exceptions.pyi -> build/lib/attr
+copying src/attr/filters.pyi -> build/lib/attr
+copying src/attr/py.typed -> build/lib/attr
+copying src/attr/setters.pyi -> build/lib/attr
+copying src/attr/validators.pyi -> build/lib/attr
+creating build/bdist.macosx-10.9-x86_64
+creating build/bdist.macosx-10.9-x86_64/egg
+creating build/bdist.macosx-10.9-x86_64/egg/attrs
+copying build/lib/attrs/__init__.pyi -> build/bdist.macosx-10.9-x86_64/egg/attrs
+copying build/lib/attrs/setters.py -> build/bdist.macosx-10.9-x86_64/egg/attrs
+copying build/lib/attrs/validators.py -> build/bdist.macosx-10.9-x86_64/egg/attrs
+copying build/lib/attrs/__init__.py -> build/bdist.macosx-10.9-x86_64/egg/attrs
+copying build/lib/attrs/py.typed -> build/bdist.macosx-10.9-x86_64/egg/attrs
+copying build/lib/attrs/exceptions.py -> build/bdist.macosx-10.9-x86_64/egg/attrs
+copying build/lib/attrs/converters.py -> build/bdist.macosx-10.9-x86_64/egg/attrs
+copying build/lib/attrs/filters.py -> build/bdist.macosx-10.9-x86_64/egg/attrs
+creating build/bdist.macosx-10.9-x86_64/egg/attr
+copying build/lib/attr/setters.pyi -> build/bdist.macosx-10.9-x86_64/egg/attr
+copying build/lib/attr/validators.pyi -> build/bdist.macosx-10.9-x86_64/egg/attr
+copying build/lib/attr/__init__.pyi -> build/bdist.macosx-10.9-x86_64/egg/attr
+copying build/lib/attr/setters.py -> build/bdist.macosx-10.9-x86_64/egg/attr
+copying build/lib/attr/validators.py -> build/bdist.macosx-10.9-x86_64/egg/attr
+copying build/lib/attr/_make.py -> build/bdist.macosx-10.9-x86_64/egg/attr
+copying build/lib/attr/_cmp.py -> build/bdist.macosx-10.9-x86_64/egg/attr
+copying build/lib/attr/exceptions.pyi -> build/bdist.macosx-10.9-x86_64/egg/attr
+copying build/lib/attr/__init__.py -> build/bdist.macosx-10.9-x86_64/egg/attr
+copying build/lib/attr/filters.pyi -> build/bdist.macosx-10.9-x86_64/egg/attr
+copying build/lib/attr/_next_gen.py -> build/bdist.macosx-10.9-x86_64/egg/attr
+copying build/lib/attr/py.typed -> build/bdist.macosx-10.9-x86_64/egg/attr
+copying build/lib/attr/exceptions.py -> build/bdist.macosx-10.9-x86_64/egg/attr
+copying build/lib/attr/_version_info.py -> build/bdist.macosx-10.9-x86_64/egg/attr
+copying build/lib/attr/converters.py -> build/bdist.macosx-10.9-x86_64/egg/attr
+copying build/lib/attr/converters.pyi -> build/bdist.macosx-10.9-x86_64/egg/attr
+copying build/lib/attr/_compat.py -> build/bdist.macosx-10.9-x86_64/egg/attr
+copying build/lib/attr/_config.py -> build/bdist.macosx-10.9-x86_64/egg/attr
+copying build/lib/attr/_cmp.pyi -> build/bdist.macosx-10.9-x86_64/egg/attr
+copying build/lib/attr/_funcs.py -> build/bdist.macosx-10.9-x86_64/egg/attr
+copying build/lib/attr/_version_info.pyi -> build/bdist.macosx-10.9-x86_64/egg/attr
+copying build/lib/attr/filters.py -> build/bdist.macosx-10.9-x86_64/egg/attr
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/attrs/setters.py to setters.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/attrs/validators.py to validators.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/attrs/__init__.py to __init__.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/attrs/exceptions.py to exceptions.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/attrs/converters.py to converters.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/attrs/filters.py to filters.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/attr/setters.py to setters.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/attr/validators.py to validators.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/attr/_make.py to _make.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/attr/_cmp.py to _cmp.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/attr/__init__.py to __init__.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/attr/_next_gen.py to _next_gen.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/attr/exceptions.py to exceptions.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/attr/_version_info.py to _version_info.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/attr/converters.py to converters.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/attr/_compat.py to _compat.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/attr/_config.py to _config.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/attr/_funcs.py to _funcs.cpython-38.pyc
+byte-compiling build/bdist.macosx-10.9-x86_64/egg/attr/filters.py to filters.cpython-38.pyc
+creating build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying src/attrs.egg-info/PKG-INFO -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying src/attrs.egg-info/SOURCES.txt -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying src/attrs.egg-info/dependency_links.txt -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying src/attrs.egg-info/not-zip-safe -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying src/attrs.egg-info/requires.txt -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+copying src/attrs.egg-info/top_level.txt -> build/bdist.macosx-10.9-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/attrs-21.4.0-py3.8.egg' and adding 'build/bdist.macosx-10.9-x86_64/egg' to it
+removing 'build/bdist.macosx-10.9-x86_64/egg' (and everything under it)
+Processing attrs-21.4.0-py3.8.egg
+removing '/Users/thomasj/tymodide/pyodide/packages/.artifacts/lib/python/attrs-21.4.0-py3.8.egg' (and everything under it)
+creating /Users/thomasj/tymodide/pyodide/packages/.artifacts/lib/python/attrs-21.4.0-py3.8.egg
+Extracting attrs-21.4.0-py3.8.egg to /Users/thomasj/tymodide/pyodide/packages/.artifacts/lib/python
+attrs 21.4.0 is already the active version in easy-install.pth
+
+Installed /Users/thomasj/tymodide/pyodide/packages/.artifacts/lib/python/attrs-21.4.0-py3.8.egg
+Processing dependencies for attrs==21.4.0
+Finished processing dependencies for attrs==21.4.0
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.8
+creating install/lib/python3.8/site-packages
+creating install/lib/python3.8/site-packages/attrs
+copying build/lib/attrs/__init__.pyi -> install/lib/python3.8/site-packages/attrs
+copying build/lib/attrs/setters.py -> install/lib/python3.8/site-packages/attrs
+copying build/lib/attrs/validators.py -> install/lib/python3.8/site-packages/attrs
+copying build/lib/attrs/__init__.py -> install/lib/python3.8/site-packages/attrs
+copying build/lib/attrs/py.typed -> install/lib/python3.8/site-packages/attrs
+copying build/lib/attrs/exceptions.py -> install/lib/python3.8/site-packages/attrs
+copying build/lib/attrs/converters.py -> install/lib/python3.8/site-packages/attrs
+copying build/lib/attrs/filters.py -> install/lib/python3.8/site-packages/attrs
+creating install/lib/python3.8/site-packages/attr
+copying build/lib/attr/setters.pyi -> install/lib/python3.8/site-packages/attr
+copying build/lib/attr/validators.pyi -> install/lib/python3.8/site-packages/attr
+copying build/lib/attr/__init__.pyi -> install/lib/python3.8/site-packages/attr
+copying build/lib/attr/setters.py -> install/lib/python3.8/site-packages/attr
+copying build/lib/attr/validators.py -> install/lib/python3.8/site-packages/attr
+copying build/lib/attr/_make.py -> install/lib/python3.8/site-packages/attr
+copying build/lib/attr/_cmp.py -> install/lib/python3.8/site-packages/attr
+copying build/lib/attr/exceptions.pyi -> install/lib/python3.8/site-packages/attr
+copying build/lib/attr/__init__.py -> install/lib/python3.8/site-packages/attr
+copying build/lib/attr/filters.pyi -> install/lib/python3.8/site-packages/attr
+copying build/lib/attr/_next_gen.py -> install/lib/python3.8/site-packages/attr
+copying build/lib/attr/py.typed -> install/lib/python3.8/site-packages/attr
+copying build/lib/attr/exceptions.py -> install/lib/python3.8/site-packages/attr
+copying build/lib/attr/_version_info.py -> install/lib/python3.8/site-packages/attr
+copying build/lib/attr/converters.py -> install/lib/python3.8/site-packages/attr
+copying build/lib/attr/converters.pyi -> install/lib/python3.8/site-packages/attr
+copying build/lib/attr/_compat.py -> install/lib/python3.8/site-packages/attr
+copying build/lib/attr/_config.py -> install/lib/python3.8/site-packages/attr
+copying build/lib/attr/_cmp.pyi -> install/lib/python3.8/site-packages/attr
+copying build/lib/attr/_funcs.py -> install/lib/python3.8/site-packages/attr
+copying build/lib/attr/_version_info.pyi -> install/lib/python3.8/site-packages/attr
+copying build/lib/attr/filters.py -> install/lib/python3.8/site-packages/attr
+byte-compiling install/lib/python3.8/site-packages/attrs/setters.py to setters.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/attrs/validators.py to validators.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/attrs/__init__.py to __init__.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/attrs/exceptions.py to exceptions.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/attrs/converters.py to converters.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/attrs/filters.py to filters.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/attr/setters.py to setters.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/attr/validators.py to validators.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/attr/_make.py to _make.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/attr/_cmp.py to _cmp.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/attr/__init__.py to __init__.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/attr/_next_gen.py to _next_gen.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/attr/exceptions.py to exceptions.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/attr/_version_info.py to _version_info.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/attr/converters.py to converters.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/attr/_compat.py to _compat.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/attr/_config.py to _config.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/attr/_funcs.py to _funcs.cpython-38.pyc
+byte-compiling install/lib/python3.8/site-packages/attr/filters.py to filters.cpython-38.pyc
+running install_egg_info
+running egg_info
+writing src/attrs.egg-info/PKG-INFO
+writing dependency_links to src/attrs.egg-info/dependency_links.txt
+writing requirements to src/attrs.egg-info/requires.txt
+writing top-level names to src/attrs.egg-info/top_level.txt
+reading manifest file 'src/attrs.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+/Users/thomasj/opt/anaconda3/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+no previously-included directories found matching 'docs/_build'
+adding license file 'LICENSE'
+adding license file 'AUTHORS.rst'
+writing manifest file 'src/attrs.egg-info/SOURCES.txt'
+Copying src/attrs.egg-info to install/lib/python3.8/site-packages/attrs-21.4.0-py3.8.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+file_packager: error: '/Users/thomasj/tymodide/pyodide/emsdk/emsdk/node/14.18.2_64bit/bin/node /Users/thomasj/tymodide/pyodide/emsdk/emsdk/upstream/emscripten/tools/lz4-compress.js /Users/thomasj/tymodide/pyodide/emsdk/emsdk/upstream/emscripten/third_party/mini-lz4.js attrs.data.orig attrs.data' failed: [Errno 8] Exec format error: '/Users/thomasj/tymodide/pyodide/emsdk/emsdk/node/14.18.2_64bit/bin/node'
+Traceback (most recent call last):
+  File "/Users/thomasj/opt/anaconda3/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/thomasj/opt/anaconda3/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/__main__.py", line 62, in <module>
+    main()
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/__main__.py", line 56, in main
+    args.func(args)
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/buildpkg.py", line 862, in main
+    build_package(
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/buildpkg.py", line 700, in build_package
+    package_files(
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/buildpkg.py", line 530, in package_files
+    common.invoke_file_packager(
+  File "/Users/thomasj/tymodide/pyodide/pyodide-build/pyodide_build/common.py", line 86, in invoke_file_packager
+    subprocess.run(
+  File "/Users/thomasj/opt/anaconda3/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/Users/thomasj/tymodide/pyodide/emsdk/emsdk/upstream/emscripten/tools/file_packager', 'attrs.data', '--js-output=attrs.js', '--preload', '/Users/thomasj/tymodide/pyodide/packages/attrs/build/attrs-21.4.0/install@/', '--lz4', '--export-name=globalThis.__pyodide_module', '--exclude', '*__pycache__*', '--use-preload-plugins']' returned non-zero exit status 1.
+[2022-08-04 09:42:19] Building package attrs...
+[2022-08-04 09:42:26] Failed building package attrs in 6.8 seconds.
